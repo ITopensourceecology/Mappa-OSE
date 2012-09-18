@@ -1,0 +1,22 @@
+=head2 Sun May 27 11:06:42 2012: C<Module> L<JSON::Parse|JSON::Parse>
+
+=over 4
+
+=item *
+
+C<installed into: /home/gaber/ltw1202/cgi-bin/inc/>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.11>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+

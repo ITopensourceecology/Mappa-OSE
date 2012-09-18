@@ -1,0 +1,470 @@
+=head1 NAME
+
+RDF::Trine::Store::Redland - Redland-backed RDF store for RDF::Trine
+
+=head1 VERSION
+
+This document describes RDF::Trine::Store::Redland version 0.137
+
+=head1 SYNOPSIS
+
+ use RDF::Trine::Store::Redland;
+
+=head1 DESCRIPTION
+
+RDF::Trine::Store::Redland provides an RDF::Trine::Store interface to the
+Redland RDF store.
+
+
+=cut
+
+package RDF::Trine::Store::Redland;
+
+use strict;
+use warnings;
+no warnings 'redefine';
+use base qw(RDF::Trine::Store);
+
+use Encode;
+use Data::Dumper;
+use RDF::Redland 1.00;
+use Scalar::Util qw(refaddr reftype blessed);
+
+use RDF::Trine::Error;
+
+######################################################################
+
+our $NIL_TAG;
+our $VERSION;
+BEGIN {
+	$VERSION	= "0.137";
+	my $class	= __PACKAGE__;
+	$RDF::Trine::Store::STORE_CLASSES{ $class }	= $VERSION;
+	$NIL_TAG	= 'tag:gwilliams@cpan.org,2010-01-01:RT:NIL';
+}
+
+######################################################################
+
+=head1 METHODS
+
+Beyond the methods documented below, this class inherits methods from the
+L<RDF::Trine::Store> class.
+
+=over 4
+
+=item C<< new ( $store ) >>
+
+Returns a new storage object using the supplied RDF::Redland::Model object.
+
+=item C<new_with_config ( $hashref )>
+
+Returns a new storage object configured with a hashref with certain
+keys as arguments.
+
+The C<storetype> key must be C<Redland> for this backend.
+
+The following keys may also be used:
+
+=over
+
+=item C<store_name>
+
+The name of the storage factory (currently C<hashes>, C<mysql>,
+C<memory>, C<file>, C<postgresql>, C<sqlite>, C<tstore>, C<uri> or
+C<virtuoso>).
+
+=item C<name>
+
+The name of the storage.
+
+=item C<options>
+
+Any other options to be passed to L<RDF::Redland::Storage> as a hashref.
+
+=back
+
+=item C<new_with_object ( $redland_model )>
+
+Initialize the store with a L<RDF::Redland::Model> object.
+
+
+=cut
+
+sub new {
+	my $class	= shift;
+	my $model	= shift;
+	my $self	= bless({
+		model	=> $model,
+	}, $class);
+	return $self;
+}
+
+sub _new_with_string {
+	my $class	= shift;
+	my $config	= shift;
+	my ($store_name, $name, $opts)	= split(/;/, $config, 3);
+	my $store	= RDF::Redland::Storage->new( $store_name, $name, $opts );
+	my $model	= RDF::Redland::Model->new( $store, '' );
+	return $class->new( $model );
+}
+
+sub _new_with_config {
+	my $class	= shift;
+	my $config	= shift;
+	my $store	= RDF::Redland::Storage->new(
+						     $config->{store_name},
+						     $config->{name},
+						     $config->{options}
+						    );
+	my $model	= RDF::Redland::Model->new( $store, '' );
+	return $class->new( $model );
+}
+
+sub _new_with_object {
+	my $class	= shift;
+	my $obj		= shift;
+	return unless (blessed($obj) and $obj->isa('RDF::Redland::Model'));
+	return $class->new( $obj );
+}
+
+sub _config_meta {
+	return {
+		required_keys	=> [qw(store_name name options)],
+		fields			=> {
+			store_name	=> { description => 'Redland Storage Type', type => 'string' },
+			name		=> { description => 'Storage Name', type => 'string' },
+			options		=> { description => 'Options String', type => 'string' },
+		},
+	}
+}
+
+=item C<< temporary_store >>
+
+Returns a temporary (empty) triple store.
+
+=cut
+
+sub temporary_store {
+	my $class	= shift;
+	return $class->_new_with_string( "hashes;test;new='yes',hash-type='memory',contexts='yes'" );
+}
+
+=item C<< get_statements ( $subject, $predicate, $object [, $context] ) >>
+
+Returns a stream object of all statements matching the specified subject,
+predicate and objects. Any of the arguments may be undef to match any value.
+
+=cut
+
+sub get_statements {
+	my $self	= shift;
+	my @nodes	= @_[0..3];
+	
+	my $use_quad	= 0;
+	if (scalar(@_) >= 4) {
+		$use_quad	= 1;
+	}
+	
+	my @rnodes;
+	foreach my $pos (0 .. ($use_quad ? 3 : 2)) {
+		my $n	= $nodes[ $pos ];
+		if (blessed($n) and not($n->is_variable)) {
+			push(@rnodes, _cast_to_redland($n));
+		} else {
+			push(@rnodes, undef);
+		}
+	}
+	
+	my $iter	= ($use_quad)
+				? $self->_get_statements_quad( @rnodes )
+				: $self->_get_statements_triple( @rnodes );
+	return $iter;
+}
+
+sub _get_statements_triple {
+	my $self	= shift;
+	my @rnodes	= @_;
+# 	warn '_get_statements_triple: ' . Dumper(\@rnodes);
+
+	my $st		= RDF::Redland::Statement->new( @rnodes[0..2] );
+	my $iter	= $self->_model->find_statements( $st );
+	my %seen;
+	my $sub		= sub {
+		while (1) {
+			return undef unless $iter;
+			return undef if $iter->end;
+			my $st	= $iter->current;
+			if ($seen{ $st->as_string }++) {
+				$iter->next;
+				next;
+			}
+			my @nodes	= map { _cast_to_local($st->$_()) } qw(subject predicate object);
+			$iter->next;
+			return RDF::Trine::Statement->new( @nodes );
+		}
+	};
+	return RDF::Trine::Iterator::Graph->new( $sub );
+}
+
+sub _get_statements_quad {
+	my $self	= shift;
+	my @rnodes	= @_;
+# 	warn '_get_statements_quad: ' . Dumper(\@rnodes);
+	
+	my $ctx		= $rnodes[3];
+	my $ctx_local;
+	if ($ctx) {
+# 		warn "-> context " . $ctx->as_string;
+		$ctx_local	= _cast_to_local( $ctx );
+	}
+	my $st		= RDF::Redland::Statement->new( @rnodes[0..2] );
+	my $iter	= $self->_model->find_statements( $st, $ctx );
+	my $nil		= RDF::Trine::Node::Nil->new();
+	my $sub		= sub {
+		return undef unless $iter;
+		return undef if $iter->end;
+		my $st	= $iter->current;
+		my $c	= $iter->context;
+		my @nodes	= map { _cast_to_local($st->$_()) } qw(subject predicate object);
+		if ($ctx) {
+			push(@nodes, $ctx_local);
+		} elsif ($c) {
+			push(@nodes, _cast_to_local($c));
+		} else {
+			push(@nodes, $nil);
+		}
+		$iter->next;
+# 		warn Dumper(\@nodes);
+		return RDF::Trine::Statement::Quad->new( @nodes );
+	};
+	return RDF::Trine::Iterator::Graph->new( $sub );
+}
+
+=item C<< get_contexts >>
+
+Returns an RDF::Trine::Iterator over the RDF::Trine::Node objects comprising
+the set of contexts of the stored quads.
+
+=cut
+
+sub get_contexts {
+	my $self	= shift;
+	my @ctxs	= $self->_model->contexts();
+ 	return RDF::Trine::Iterator->new( sub { my $n = shift(@ctxs); return _cast_to_local($n) } );
+}
+
+=item C<< add_statement ( $statement [, $context] ) >>
+
+Adds the specified C<$statement> to the underlying model.
+
+=cut
+
+sub add_statement {
+	my $self	= shift;
+	my $st		= shift;
+	my $context	= shift;
+	
+	my $nil	= RDF::Trine::Node::Nil->new();
+	if ($st->isa( 'RDF::Trine::Statement::Quad' )) {
+		if (blessed($context)) {
+			throw RDF::Trine::Error::MethodInvocationError -text => "add_statement cannot be called with both a quad and a context";
+		}
+	} else {
+		my @nodes	= $st->nodes;
+		if (blessed($context)) {
+			$st	= RDF::Trine::Statement::Quad->new( @nodes[0..2], $context );
+		} else {
+			$st	= RDF::Trine::Statement::Quad->new( @nodes[0..2], $nil );
+		}
+	}
+	
+	my $model	= $self->_model;
+	my @nodes	= $st->nodes;
+	my @rnodes	= map { _cast_to_redland($_) } @nodes;
+	my $rst		= RDF::Redland::Statement->new( @rnodes[0..2] );
+	$model->add_statement( $rst, $rnodes[3] );
+}
+
+=item C<< remove_statement ( $statement [, $context]) >>
+
+Removes the specified C<$statement> from the underlying model.
+
+=cut
+
+sub remove_statement {
+	my $self	= shift;
+	my $st		= shift;
+	my $context	= shift;
+	
+	if ($st->isa( 'RDF::Trine::Statement::Quad' )) {
+		if (blessed($context)) {
+			throw RDF::Trine::Error::MethodInvocationError -text => "remove_statement cannot be called with both a quad and a context";
+		}
+	} else {
+		my @nodes	= $st->nodes;
+		if (blessed($context)) {
+			$st	= RDF::Trine::Statement::Quad->new( @nodes[0..2], $context );
+		} else {
+			my $nil	= RDF::Trine::Node::Nil->new();
+			$st	= RDF::Trine::Statement::Quad->new( @nodes[0..2], $nil );
+		}
+	}
+
+	my @nodes	= $st->nodes;
+	my @rnodes	= map { _cast_to_redland($_) } @nodes;
+	$self->_model->remove_statement( @rnodes );
+}
+
+=item C<< remove_statements ( $subject, $predicate, $object [, $context]) >>
+
+Removes the specified C<$statement> from the underlying model.
+
+=cut
+
+sub remove_statements {
+	my $self	= shift;
+	my $subj	= shift;
+	my $pred	= shift;
+	my $obj		= shift;
+	my $context	= shift;
+	my $iter	= $self->get_statements( $subj, $pred, $obj, $context );
+	while (my $st = $iter->next) {
+		$self->remove_statement( $st );
+	}
+}
+
+=item C<< count_statements ( $subject, $predicate, $object, $context ) >>
+
+Returns a count of all the statements matching the specified subject,
+predicate, object, and context. Any of the arguments may be undef to match any
+value.
+
+=cut
+
+sub count_statements {
+	my $self	= shift;
+	my @nodes	= @_;
+	if (scalar(@nodes) < 4) {
+# 		warn "restricting count_statements to triple semantics";
+		my @rnodes	= map { _cast_to_redland($_) } @nodes[0..2];
+		my $st		= RDF::Redland::Statement->new( @rnodes );
+		my $iter	= $self->_model->find_statements( $st );
+		my $count	= 0;
+		my %seen;
+		while ($iter and my $st = $iter->current) {
+			unless ($seen{ $st->as_string }++) {
+				$count++;
+			}
+			$iter->next;
+		}
+		return $count;
+	} else {
+		my @rnodes	= map { _cast_to_redland($_) } @nodes;
+		my $st		= RDF::Redland::Statement->new( @rnodes[0..2] );
+		my $iter	= $self->_model->find_statements( $st, $rnodes[3] );
+		my $count	= 0;
+		while ($iter and my $st = $iter->current) {
+			$count++;
+			my $ctx	= $iter->context;
+			$iter->next;
+		}
+		return $count;
+	}
+}
+
+=item C<< size >>
+
+Returns the number of statements in the store.
+
+=cut
+
+sub size {
+	my $self	= shift;
+	return $self->_model->size;
+}
+
+=item C<< supports ( [ $feature ] ) >>
+
+If C<< $feature >> is specified, returns true if the feature is supported by the
+store, false otherwise. If C<< $feature >> is not specified, returns a list of
+supported features.
+
+=cut
+
+sub supports {
+	return;
+}
+
+sub _model {
+	my $self	= shift;
+	return $self->{model};
+}
+
+sub _cast_to_redland ($) {
+	my $node	= shift;
+	return undef unless (blessed($node));
+	if ($node->isa('RDF::Trine::Statement')) {
+		my @nodes	= map { _cast_to_redland( $_ ) } $node->nodes;
+		return RDF::Redland::Statement->new( @nodes );
+	} elsif ($node->isa('RDF::Trine::Node::Resource')) {
+		return RDF::Redland::Node->new_from_uri( $node->uri_value );
+	} elsif ($node->isa('RDF::Trine::Node::Blank')) {
+		return RDF::Redland::Node->new_from_blank_identifier( $node->blank_identifier );
+	} elsif ($node->isa('RDF::Trine::Node::Literal')) {
+		my $lang	= $node->literal_value_language;
+		my $dt		= $node->literal_datatype;
+		my $value	= $node->literal_value;
+		return RDF::Redland::Node->new_literal( "$value", $dt, $lang );
+	} elsif ($node->isa('RDF::Trine::Node::Nil')) {
+		return RDF::Redland::Node->new_from_uri( $NIL_TAG );
+	} else {
+		return undef;
+	}
+}
+
+sub _cast_to_local ($) {
+	my $node	= shift;
+	return undef unless (blessed($node));
+	my $type	= $node->type;
+	if ($type == $RDF::Redland::Node::Type_Resource) {
+		my $uri	= $node->uri->as_string;
+		if ($uri eq $NIL_TAG) {
+			return RDF::Trine::Node::Nil->new();
+		} else {
+			return RDF::Trine::Node::Resource->new( $uri );
+		}
+	} elsif ($type == $RDF::Redland::Node::Type_Blank) {
+		return RDF::Trine::Node::Blank->new( $node->blank_identifier );
+	} elsif ($type == $RDF::Redland::Node::Type_Literal) {
+		my $lang	= $node->literal_value_language;
+		my $dturi	= $node->literal_datatype;
+		my $dt		= ($dturi)
+					? $dturi->as_string
+					: undef;
+		return RDF::Trine::Node::Literal->new( decode('utf8', $node->literal_value), $lang, $dt );
+	} else {
+		return undef;
+	}
+}
+
+1;
+
+__END__
+
+=back
+
+=head1 BUGS
+
+Please report any bugs or feature requests to C<< <gwilliams@cpan.org> >>.
+
+=head1 AUTHOR
+
+Gregory Todd Williams  C<< <gwilliams@cpan.org> >>
+
+=head1 COPYRIGHT
+
+Copyright (c) 2006-2010 Gregory Todd Williams. This
+program is free software; you can redistribute it and/or modify it under
+the same terms as Perl itself.
+
+=cut

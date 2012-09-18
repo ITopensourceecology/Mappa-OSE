@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE catalogo SYSTEM "http://vitali.web.cs.unibo.it/twiki/pub/TechWeb12/DTDs/catalogo.dtd">
+
+<catalogo id="ltw1202" gruppo="SNSV">
+	<aggregatori>
+		<aggregatore id="ltw1202-medici" title="Medici generici di Bologna" url="http://ltw1202.web.cs.unibo.it/aggr-medici">
+			Dati riguardanti i medici generici di Bologna con orari, indirizzi e numeri di telefono.
+		</aggregatore>
+
+		<aggregatore id="ltw1202-farmacie" title="Farmacie di Bologna" url="http://ltw1202.web.cs.unibo.it/aggr-farmacie">
+			Dati riguardanti le farmacie di Bologna con orari, indirizzi e numeri di telefono.
+		</aggregatore>
+	</aggregatori>
+
+	<descrittori>
+		<descrittore url="http://ltw1202.web.cs.unibo.it/descr-distanza/" desc="Restituisce la distanza in metri tra due posizioni">
+			<params>
+				<param name="lat1" required="yes">La latitudine della prima posizione</param>
+				<param name="lon1" required="yes">La longitudine della prima posizione</param>
+				<param name="lat1" required="yes">La latitudine della seconda posizione</param>
+				<param name="lon1" required="yes">La longitudine della seconda posizione</param>
+			</params>
+		</descrittore>
+
+		<descrittore url="http://ltw1202.web.cs.unibo.it/descr-raggio/" desc="Restituisce le locations entro un certo raggio da una posizione">
+			<params>
+				<param name="lat" required="yes">La latitudine della posizione da cui cercare</param>
+				<param name="lon" required="yes">La longitudine della posizione da cui cercare</param>
+				<param name="raggio" required="yes">Il raggio in metri entro il quale effettuare la ricerca</param>
+			</params>
+		</descrittore>
+
+		<descrittore url="http://ltw1202.web.cs.unibo.it/descr-trova/" desc="Restituisce le locations il cui nome contiene una data stringa">
+			<params>
+				<param name="nome" required="yes">La stringa da cercare all'interno dei nomi.</param>
+			</params>
+		</descrittore>
+	</descrittori>
+</catalogo>

@@ -1,0 +1,72 @@
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+	<!-- CSS -->
+	<link rel="stylesheet" type="text/css" href="tablesorter/blue/style.css"/>
+	<link rel="stylesheet" type="text/css" href="jquery-ui/css/smoothness/jquery-ui-1.8.20.custom.css"/>
+	<link rel="stylesheet" type="text/css" href="jquery-toast/resources/css/jquery.toastmessage.css"/>
+	<link rel="stylesheet" type="text/css" href="metamarket/style.css"/>
+
+	<!-- SCRIPT -->
+	<script type="text/javascript" src="jquery/jquery-1.7.2.min.js"></script>
+	<script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.20.custom.min.js"></script>
+	<script type="text/javascript" src="jquery-toast/javascript/jquery.toastmessage.js"></script>
+	<script type="text/javascript" src="tablesorter/jquery.tablesorter.js"></script>
+	<script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?key=AIzaSyCItivGDk_p9BB5uu-7ZIrv--MPhsaF-j0&sensor=true"></script>
+	<script type="text/javascript" src="metamarket/metamarket.js"></script>
+
+	<title>MetaMarket</title>
+</head>
+<body>
+	<div id="MAIN">
+		<div id="HEADER">
+			<img src="metamarket/logo.png" id="logo">
+			<div id="search">
+				<input rel="Cerca un nome..." id="field" name="field" type="text" />
+				<div id="delete"><span id="x">x</span></div>
+				<input id="submit" type="button" value="Search" />
+				<img id="loader" src="metamarket/icone/loader.gif" />
+			</div>
+		</div>
+
+		<div id="MENU">
+			<div class="ui-dialog ui-widget ui-widget-content ui-corner-all box">
+				<div class="ui-dialog-titlebar ui-widget-header ui-corner-all ui-helper-clearfix">Distanza</div>
+				<div class="ui-dialog-content ui-widget-content"><div id="raggio"> </div> <span id="metri">1000</span> m</div>
+			</div>
+
+			<div class="ui-dialog ui-widget ui-widget-content ui-corner-all box box-head">
+				<div class="ui-dialog-titlebar ui-widget-header ui-corner-all ui-helper-clearfix">Categorie</div>
+				<div class="ui-dialog-content ui-widget-content box-cont">
+					<div id="categorie">
+						<img id="loaderc" src="metamarket/icone/loader.gif" />
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div id="CONTENT">
+			<ul>
+				<li><a href="#mappa">Mappa</a></li>
+				<li><a href="#narratore">Tabella</a></li>
+			</ul>
+
+			<div id="mappa"></div>
+
+			<div style="overflow:auto" id="narratore">
+				<table border='1' id='ordine'class='tablesorter'>
+					<thead align='left'>
+						<tr><th></th><th>Nome</th><th>Indirizzo</th><th>Tel.</th></tr>
+					</thead>
+					<tbody id='tabella'></tbody>
+				</table>
+			</div>
+		</div>
+
+		<div id="FOOTER">Powered by
+			<a
+			href="http://vitali.web.cs.unibo.it/TechWeb12/GruppoLTW018">SNSV</a></div>
+	</div>
+</body>
+</html>

@@ -1,0 +1,12 @@
+RewriteEngine On
+
+AddType application/xml catalogo
+
+RewriteRule								\
+ ^aggr-([a-z]+)/?([A-Z,a-z]+)?/?([A-Z,a-z]+)?/?(.+)?			\
+ /cgi-bin/aggregatore\.pl?id=$1&key=$2&comp=$3&val=$4			[L]
+
+RewriteRule								\
+ ^descr-([a-z]+)/([\_,\-,A-Z,a-z,0-9,/]*)?/?params/(.+)			\
+ /cgi-bin/descrittore\.pl?id=$1&aggrs=$2&params=$3			[L]
+

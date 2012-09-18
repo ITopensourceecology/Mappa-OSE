@@ -1,0 +1,4931 @@
+{
+    "locations": {
+        "med0001": {
+            "address": "Via Luigi Pirandello, 14/i, 14/I, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.5117194",
+            "lg": "11.3900167",
+            "name": "ACCIARRI SANDRO",
+            "opening": "Lun: 09.00-11.00. Mar: 16.00-18.00. Mer: 09.00-11.00. Ven: 09.00-11.00.",
+            "tel": ""
+        },
+        "med0002": {
+            "address": "Via Rialto, 7, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.4896055",
+            "lg": "11.3497384",
+            "name": "ACCIARRI SANDRO",
+            "opening": "Lun: 15.30-18.00. Mar: 10.00-12.00. Mer: 15.00-18.00. Gio: 10.00-12.00. Ven: 15.00-18.00.",
+            "tel": ""
+        },
+        "med0003": {
+            "address": "Piazza Giovanni Xxiii, 11, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.4943888",
+            "lg": "11.2845214",
+            "name": "ADALIO GIUSEPPINA",
+            "opening": "Lun: 16.30-18.30. Mar: 08.30-10.30. Mer: 13.45-15.45. Gio: 08.00-11.30. Ven: 14.00-15.30.",
+            "tel": ""
+        },
+        "med0004": {
+            "address": "Via Mario Bastia, 18, 18, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.4916873",
+            "lg": "11.3158045",
+            "name": "ADALIO GIUSEPPINA",
+            "opening": "Lun: 08.30-10.30. Mar: 11.00-12.30. Mer: 08.30-10.30. Gio: 16.30-18.30. Ven: 08.30-10.30.",
+            "tel": ""
+        },
+        "med0005": {
+            "address": "Via Francesco Barbieri, 129/F, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.5170249",
+            "lg": "11.3380202",
+            "name": "ADAMO FRANCESCA",
+            "opening": "Lun: 10.00-12.00. Mar: 17.00-19.00. Mer: 11.00-13.00. Gio: 17.00-19.00. Ven: 10.00-12.00.",
+            "tel": ""
+        },
+        "med0006": {
+            "address": "Via Giuseppe Bentivogli, 99/A, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.4971205",
+            "lg": "11.3643233",
+            "name": "ADAMO FRANCESCA",
+            "opening": "Lun: 17.00-19.30. Mar: 09.30-11.30. Gio: 09.30-11.30.",
+            "tel": ""
+        },
+        "med0007": {
+            "address": "Via Castiglione, 51/2, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.4876373",
+            "lg": "11.3480443",
+            "name": "ADANI CARLO",
+            "opening": "Lun: 15.30-19.00. Mar: 09.30-13.00. Mer: 15.00-19.00. Gio: 15.30-19.00. Ven: 09.30-13.00.",
+            "tel": ""
+        },
+        "med0010": {
+            "address": "Via Podgora, 1, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.5011162",
+            "lg": "11.3204513",
+            "name": "ALBERTI ALESSANDRO",
+            "opening": "Lun: 15.00-18.00. Mar: 10.00-13.00. Mer: 15.00-18.00. Gio: 10.00-13.00. Ven: 15.00-17.00.",
+            "tel": ""
+        },
+        "med0015": {
+            "address": "Via Filippo De Pisis, 15, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.5027052",
+            "lg": "11.2909797",
+            "name": "ALBINI UGO",
+            "opening": "Lun: 17.30-20.00. Mar: 08.00-10.30. Mer: 17.00-20.00. Gio: 17.00-20.00. Ven: 17.00-20.00. Sab: 08.00-10.30.",
+            "tel": ""
+        },
+        "med0016": {
+            "address": "Piazza Dei Martiri, 7, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.5020173",
+            "lg": "11.3395304",
+            "name": "ALDROVANDI EMANUELA",
+            "opening": "Mer: 09.00-12.00. Gio: 09.00-11.00.",
+            "tel": ""
+        },
+        "med0017": {
+            "address": "Via Galliera, 87, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.5023254",
+            "lg": "11.3440095",
+            "name": "ALDROVANDI EMANUELA",
+            "opening": "Lun: 15.00-19.00. Mar: 09.00-12.00. Mer: 17.00-19.00. Gio: 11.30-13.00. Ven: 09.00-12.00.",
+            "tel": ""
+        },
+        "med0018": {
+            "address": "Via Federico Beroaldo, 4/2, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.5184235",
+            "lg": "11.3944254",
+            "name": "ALESSI PASQUALE",
+            "opening": "Lun: 15.00-19.00. Mar: 08.30-12.00. Mer: 15.00-19.00. Gio: 08.30-12.00. Ven: 15.00-18.0.",
+            "tel": ""
+        },
+        "med0019": {
+            "address": "Via Isabella Andreini, 32/B, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.5008484",
+            "lg": "11.3736774",
+            "name": "AMMAR KHODOR",
+            "opening": "Lun: 09.00-12.00. Mar: 09.00-12.00. Mer: 09.00-12.00. Gio: 09.00-12.00. Ven: 09.00-12.00.",
+            "tel": ""
+        },
+        "med0021": {
+            "address": "Via Saragozza, 103/B, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.4903806",
+            "lg": "11.3255278",
+            "name": "AMORATI PAOLO",
+            "opening": "Lun: 14.30-19.30. Mar: 14.30-19.30. Mer: 09.30-12.30. Gio: 14.30-19.30. Ven: 09.30-12.30.",
+            "tel": ""
+        },
+        "med0022": {
+            "address": "Via Genuzio Bentini, 39, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.546796",
+            "lg": "11.3564719",
+            "name": "AMOVILLI MARCO",
+            "opening": "Lun: 17.00-19.00. Mar: 09.00-11.00. Gio: 17.00-19.00. Ven: 09.00-11.00.",
+            "tel": ""
+        },
+        "med0023": {
+            "address": "Via Zampieri, 21/3C, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.5094039",
+            "lg": "11.3430322",
+            "name": "AMOVILLI MARCO",
+            "opening": "Lun: 08.30-11.30. Mar: 15.30-18.30. Mer: 08.30-11.30. Gio: 08.30-11.30. Ven: 15.30-18.30.",
+            "tel": ""
+        },
+        "med0024": {
+            "address": "Via Sardegna, 1, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.4765275",
+            "lg": "11.3832535",
+            "name": "ANANIA ALFONSO",
+            "opening": "Lun: 08.30-11.30. Mar: 16.00-19.00. Mer: 08.30-11.45. Gio: 16.00-19.00. Ven: 16.00-19.00.",
+            "tel": ""
+        },
+        "med0025": {
+            "address": "Piazza Di Porta Castiglione, 15/A, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.4852183",
+            "lg": "11.3483231",
+            "name": "ANCONETANI BRUNO",
+            "opening": "Lun: 18.30-19.30. Mer: 11.00-12.00. Ven: 18.00-19.00.",
+            "tel": ""
+        },
+        "med0026": {
+            "address": "Via Ruggi, 9, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.4801976",
+            "lg": "11.3689523",
+            "name": "ANCONETANI BRUNO",
+            "opening": "Lun: 11.00-13.00. Mar: 15.00-18.00. Mer: 15.00-18.00. Gio: 15.00-18.00. Ven: 11.00-13.00.",
+            "tel": ""
+        },
+        "med0028": {
+            "address": "Via Giacomo Matteotti, 24, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.5088731",
+            "lg": "11.3466725",
+            "name": "ANDREOLI STEFANO",
+            "opening": "Lun: 15.00-20.00. Mar: 09.00-13.00. Mer: 16.00-20.00. Gio: 16.00-20.00. Ven: 09.00-13.00.",
+            "tel": ""
+        },
+        "med0029": {
+            "address": "Via Cleto Tomba, 27, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.5071864",
+            "lg": "11.3601359",
+            "name": "ANSELMI ANTONIO",
+            "opening": "Lun: 10.30-12.00. Mar: 17.30-19.00. Mer: 17.30-19.00. Gio: 10.30-12.00. Ven: 15.00-17.00.",
+            "tel": ""
+        },
+        "med0030": {
+            "address": "Via Del Meloncello, 2, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.4900212",
+            "lg": "11.3112418",
+            "name": "ANTONUCCI ASMERINO",
+            "opening": "Lun: 15.30-19.00. Mer: 15.30-19.00. Ven: 09.00-13.00.",
+            "tel": ""
+        },
+        "med0031": {
+            "address": "Via Lemonia, 45/e, 45/E, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.506869",
+            "lg": "11.2985417",
+            "name": "ANTONUCCI ASMERINO",
+            "opening": "Lun: 14.00-15.00. Mar: 08.30-12.00. Mer: 14.00-15.00. Gio: 08.30-12.00. Ven: 16.00-19.00.",
+            "tel": ""
+        },
+        "med0032": {
+            "address": "Piazza Giovanni Xxiii, 11, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.4943888",
+            "lg": "11.2845214",
+            "name": "ARCURI RITA FILOMENA",
+            "opening": "Lun: 09.30-12.00. Mar: 17.00-19.00. Mer: 09.30-12.00. Gio: 17.00-19.00. Ven: 09.30-11.30.",
+            "tel": ""
+        },
+        "med0033": {
+            "address": "Via Piero Gobetti, 1, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.5132319",
+            "lg": "11.3414785",
+            "name": "ARCURI RITA FILOMENA",
+            "opening": "Lun: 16.30-18.30. Mer: 16.30-18.30. Gio: 10.00-12.00.",
+            "tel": ""
+        },
+        "med0034": {
+            "address": "Via Santo Stefano, 82, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.4876418",
+            "lg": "11.3526841",
+            "name": "ARDITO PATRIZIA",
+            "opening": "Lun: 12.00-13.00. Mar: 16.00-19.00. Mer: 10.00-14.00. Gio: 16.00-19.00. Ven: 10.00-14.00.",
+            "tel": ""
+        },
+        "med0042": {
+            "address": "Via Augusto Righi, 6, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.4990533",
+            "lg": "11.3445066",
+            "name": "ASSIRELLI BARBARA",
+            "opening": "Lun: 17.30-19.00. Mar: 08.30-12.00. Mer: 08.30-12.00. Gio: 15.00-18.00. Ven: 08.30-12.00.",
+            "tel": ""
+        },
+        "med0047": {
+            "address": "Via Giorgione, 6/B, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.5099506",
+            "lg": "11.3031251",
+            "name": "BAGALA' GAETANO",
+            "opening": "Lun: 10.00-12.00. Mer: 10.00-12.00. Gio: 15.30-18.30.",
+            "tel": ""
+        },
+        "med0048": {
+            "address": "Via Nani, 10, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.5185598",
+            "lg": "11.2782348",
+            "name": "BAGALA' GAETANO",
+            "opening": "Lun: 15.00-17.00. Mar: 09.30-12.30. Mer: 16.00-19.00. Gio: 09.30-12.30. Ven: 14.30-17.30.",
+            "tel": ""
+        },
+        "med0049": {
+            "address": "Piazza Trento E Trieste, 1, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.4876288",
+            "lg": "11.362453",
+            "name": "BAGNOLI LUIGI",
+            "opening": "Lun: 15.00-19.00. Mar: 08.00-12.00. Mer: 15.00-19.00. Gio: 08.00-12.00;. 16.00-18.00: . Ven: 15.30-19.00.",
+            "tel": ""
+        },
+        "med0054": {
+            "address": "Via Dal Lino, 2/A, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.4915229",
+            "lg": "11.3056843",
+            "name": "BALDUZZI ANTONIO",
+            "opening": "Lun: 17.00-19.00. Mar: 10.00-12.00. Mer: 17.00-19.00. Gio: 10.00-12.30. Ven: 17.00-19.00.",
+            "tel": ""
+        },
+        "med0055": {
+            "address": "Via Rialto, 7, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.4896055",
+            "lg": "11.3497384",
+            "name": "BALDUZZI ANTONIO",
+            "opening": "Lun: 10.00-12.00. Mar: 15.00-17.00. Gio: 15.00-17.00. Ven: 10.00-12.00.",
+            "tel": ""
+        },
+        "med0062": {
+            "address": "Via Azzogardino, 1, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.4992194",
+            "lg": "11.337988",
+            "name": "BARBIERI MASSIMO",
+            "opening": "Lun: 10.00-12.00. Mar: 16.00-18.00. Ven: 10.00-12.00.",
+            "tel": ""
+        },
+        "med0063": {
+            "address": "Via Marche, 2, 2, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.4794815",
+            "lg": "11.3835958",
+            "name": "BARBIERI MASSIMO",
+            "opening": "Lun: 16.30-18.30. Mar: 10.00-12.00. Mer: 16.30-19.00. Gio: 10.00-12.00. Ven: 16.30-19.00.",
+            "tel": ""
+        },
+        "med0071": {
+            "address": "Via Castiglione, 45, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.4885982",
+            "lg": "11.3477204",
+            "name": "BASSI BEATRICE",
+            "opening": "Lun: 15.00-19.00. Mar: 15.00-19.00. Mer: 09.00-12.00. Gio: 15.00-19.00. Ven: 09.00-12.00.",
+            "tel": ""
+        },
+        "med0078": {
+            "address": "Via Di Corticella, 41, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.5153589",
+            "lg": "11.3478591",
+            "name": "BELOTTI BARBARA",
+            "opening": "Lun: 08.30-11.45. Mar: 15.30-18.15. Mer: 15.30-18.15. Gio: 08.30-11.45. Ven: 08.30-11.45.",
+            "tel": ""
+        },
+        "med0079": {
+            "address": "Piazza Giovanni Xxiii, 11, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.4943888",
+            "lg": "11.2845214",
+            "name": "BELOTTI MASSIMO",
+            "opening": "Lun: 08.30-10.30. Mar: 15.30-18.30. Mer: 08.30-11.00. Gio: 15.30-18.30. Ven: 15.30-18.00.",
+            "tel": ""
+        },
+        "med0080": {
+            "address": "Via Giorgione, 6, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.5099506",
+            "lg": "11.3031251",
+            "name": "BELOTTI MASSIMO",
+            "opening": "Lun: 16.00-18.30. Gio: 09.00-11.00.",
+            "tel": ""
+        },
+        "med0081": {
+            "address": "Via Augusto Murri, 185, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.4737284",
+            "lg": "11.3684804",
+            "name": "BELTRANI MARIO",
+            "opening": "Lun: 08.00-12.00. Mar: 08.00-12.00. Mer: 08.00-12.00. Gio: 08.00-12.00. Ven: 08.00-12.00.",
+            "tel": ""
+        },
+        "med0083": {
+            "address": "Via Ferrarese, 67/2, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.5158341",
+            "lg": "11.3541466",
+            "name": "BENASSI RITA",
+            "opening": "Lun: 09.30-12.00. Mar: 16.00-18.30. Gio: 16.00-18.30. Ven: 09.30-10.30.",
+            "tel": ""
+        },
+        "med0084": {
+            "address": "Via San Felice, 81, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.4976727",
+            "lg": "11.3320406",
+            "name": "BENASSI RITA",
+            "opening": "Lun: 16.00-18.30. Mar: 09.30-12.00. Mer: 09.30-12.00. Gio: 09.30-12.00. Ven: 11.30-12.30.",
+            "tel": ""
+        },
+        "med0092": {
+            "address": "Via Dagnini, 11/F, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.4776726",
+            "lg": "11.3684367",
+            "name": "BERARDI SALVATORE",
+            "opening": "Lun: 16.30-19.00. Mar: 08.30-09.30. Mer: 09.00-12.00. Gio: 16.30-19.00. Ven: 16.30-19.00.",
+            "tel": ""
+        },
+        "med0096": {
+            "address": "Via San Vitale, 13, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.494487",
+            "lg": "11.3488242",
+            "name": "BERNASCONI TOMMASO",
+            "opening": "Lun: 17.00-19.00. Mar: 09.00-11.00. Mer: 14.00-16.00. Gio: 17.00-19.00. Ven: 08.00-10.00.",
+            "tel": ""
+        },
+        "med0100": {
+            "address": "Via Della Battaglia, 25, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.4652256",
+            "lg": "11.3773199",
+            "name": "BEVINI MAURIZIO",
+            "opening": "Lun: 14.30-17.00. Mar: 10.00-12.30. Mer: 14.30-17.00. Gio: 10.00-12.30. Ven: 10.00-12.30.",
+            "tel": ""
+        },
+        "med0103": {
+            "address": "Via Montello, 14/C, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.4997441",
+            "lg": "11.3220207",
+            "name": "BIAVATI FRANCESCO",
+            "opening": "Lun: 10.00-13.00. Mar: 16.00-19.00. Mer: 10.00-13.00. Gio: 16.00-19.00. Ven: 10.00-13.00.",
+            "tel": ""
+        },
+        "med0104": {
+            "address": "Viale Abramo Lincoln, 72/A, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.4822394",
+            "lg": "11.3925084",
+            "name": "BOLDRINI MARIA PATRIZIA",
+            "opening": "Lun: 09.00-12.00. Mar: 16.00-19.00. Mer: 10.00-12.00. Gio: 16.00-19.00. Ven: 10.00-12.00.",
+            "tel": ""
+        },
+        "med0105": {
+            "address": "Piazza Aldo Capitini, 10/A-B, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.4953139",
+            "lg": "11.2928214",
+            "name": "BOLELLI MILVIA",
+            "opening": "Lun: 15.00-18.00. Mar: 09.00-11.00. Mer: 15.00-18.00. Gio: 09.00-11.00. Ven: 15.00-18.00.",
+            "tel": ""
+        },
+        "med0109": {
+            "address": "Via Del Triumvirato, 28, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.5190408",
+            "lg": "11.2938234",
+            "name": "BORGATTI ROBERTO",
+            "opening": "Lun: 14.00-15.00. Mar: 15.30-19.00. Mer: 14.00-15.00. Gio: 15.30-19.00. Ven: 15.30-19.00.",
+            "tel": ""
+        },
+        "med0110": {
+            "address": "Via Della Pietra,, 25, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.5088351",
+            "lg": "11.2842969",
+            "name": "BORGATTI ROBERTO",
+            "opening": "Lun: 15.30-19.00. Mer: 09.00-12.00. Ven: 09.00-12.00.",
+            "tel": ""
+        },
+        "med0111": {
+            "address": "Via Del Meloncello, 2, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.4900212",
+            "lg": "11.3112418",
+            "name": "BORGHI PAOLO",
+            "opening": "Lun: 08.30-11.00. Mar: 08.30-11.00. Mer: 08.00-11.00. Gio: 08.30-11.00. Ven: 15.00-18.30.",
+            "tel": ""
+        },
+        "med0118": {
+            "address": "Via Emilia Levante, 146, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.4800303",
+            "lg": "11.3838284",
+            "name": "BRESCHI PAOLO",
+            "opening": "Lun: 17.00-20.00. Mar: 10.00-13.00. Mer: 17.00-20.00. Gio: 10.00-13.00. Ven: 17.00-20.00.",
+            "tel": ""
+        },
+        "med0120": {
+            "address": "Via Grazia Deledda, 14/A, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.5095352",
+            "lg": "11.3968443",
+            "name": "BRUNI MONICA",
+            "opening": "Lun: 11.30-12.30. Mar: 15.00-17.00. Mer: 15.00-17.00. Gio: 11.30-12.30. Ven: 12.30-13.00.",
+            "tel": ""
+        },
+        "med0121": {
+            "address": "Via Parigi, 15, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.4966685",
+            "lg": "11.3403831",
+            "name": "BRUNI MONICA",
+            "opening": "Lun: 18.30-19.30. Mar: 18.30-19.30. Mer: 18.30-19.30.",
+            "tel": ""
+        },
+        "med0124": {
+            "address": "Via Agucchi, 216/B, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.5246161",
+            "lg": "11.3150659",
+            "name": "BUSINELLO MARIO",
+            "opening": "Lun: 14.00-19.00. Mar: 10.00-12.30. Mer: 16.30-19.00. Gio: 10.00-12.30. Ven: 14.00-17.00.",
+            "tel": ""
+        },
+        "med0125": {
+            "address": "Via Agucchi, 216/B, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.5246161",
+            "lg": "11.3150659",
+            "name": "BUSINELLO MARIO",
+            "opening": "",
+            "tel": ""
+        },
+        "med0126": {
+            "address": "Piazza Di Porta Castiglione, 15/A, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.4852183",
+            "lg": "11.3483231",
+            "name": "CACCAVELLI ANGELA",
+            "opening": "Lun: 15.30-17.00. Mar: 11.00-12.30. Mer: 17.00-19.00. Gio: 11.00-13.00. Ven: 08.30-10.30.",
+            "tel": ""
+        },
+        "med0127": {
+            "address": "Via Ugo Bassi, 11, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.4955164",
+            "lg": "11.3397476",
+            "name": "CACCAVELLI ANGELA",
+            "opening": "Lun: 18.00-19.00. Mar: 08.30-10.00. Mer: 15.30-16.30. Gio: 18.00-19.00. Ven: 11.15-12.30.",
+            "tel": ""
+        },
+        "med0128": {
+            "address": "Via Decumana, 50/A, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.5076093",
+            "lg": "11.2987816",
+            "name": "CADEDDU MARIA GRAZIA",
+            "opening": "Lun: 15.00-18.00. Mar: 10.00-12.00. Mer: 15.00-18.00. Gio: 10.00-12.00. Ven: 10.00-12.00.",
+            "tel": ""
+        },
+        "med0133": {
+            "address": "Via Augusto Murri, 16, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.4829517",
+            "lg": "11.3589759",
+            "name": "CALAMELLI RICCARDO",
+            "opening": "Lun: 15.30-18.30. Mar: 09.30-12.30. Mer: 15.30-18.30. Gio: 09.30-12.30. Ven: 15.30-18.30.",
+            "tel": ""
+        },
+        "med0135": {
+            "address": "Via Di Corticella, 41, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.5153589",
+            "lg": "11.3478591",
+            "name": "CALLEGATI MARIA LUISA",
+            "opening": "Lun: 09.30-12.30. Mar: 15.30-18.30. Mer: 09.30-12.30. Gio: 17.00-20.00. Ven: 09.30-12.30.",
+            "tel": ""
+        },
+        "med0136": {
+            "address": "Via Fiorita, 2, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.4824617",
+            "lg": "11.3769628",
+            "name": "CALOGIURI FRANCESCO",
+            "opening": "Lun: 15.30-19.30. Mar: 09.00-12.00. Mer: 15.30-19.30. Gio: 09.00-12.00. Ven: 09.00-12.00.",
+            "tel": ""
+        },
+        "med0138": {
+            "address": "Via Di Corticella, 41, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.5153589",
+            "lg": "11.3478591",
+            "name": "CALZONI PAOLO",
+            "opening": "Lun: 14.30-18.00. Mar: 09.00-12.00. Mer: 14.30-18.00. Gio: 09.00-12.00. Ven: 14.30-18.00.",
+            "tel": ""
+        },
+        "med0140": {
+            "address": "Via Cherubini, 5, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.466768",
+            "lg": "11.378288",
+            "name": "CAMERANESI ALESSANDRO",
+            "opening": "Lun: 12.30-14.30. Mar: 16.30-18.30. Mer: 12.30-14.30. Gio: 16.30-18.30. Ven: 12.30-14.30.",
+            "tel": ""
+        },
+        "med0141": {
+            "address": "Via D'azeglio, 15, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.4925648",
+            "lg": "11.3419903",
+            "name": "CAMMARATA ANTONINO",
+            "opening": "Mar: 10.30-12.30. Gio: 10.30-12.30.",
+            "tel": ""
+        },
+        "med0142": {
+            "address": "Via Fiorita, 2, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.4824617",
+            "lg": "11.3769628",
+            "name": "CAMMARATA ANTONINO",
+            "opening": "Lun: 10.00-13.00. Mar: 15.30-18.30. Mer: 10.00-13.00. Gio: 15.30-18.30. Ven: 10.00-13.00.",
+            "tel": ""
+        },
+        "med0143": {
+            "address": "Via Dell'indipendenza, 29, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.4979015",
+            "lg": "11.34358",
+            "name": "CAMPANELLI ANNA RITA",
+            "opening": "Lun: 15.00-18.00. Mar: 10.30-12.30. Mer: 10.30-12.30. Gio: 10.30-12.30. Ven: 15.00-18.00.",
+            "tel": ""
+        },
+        "med0144": {
+            "address": "Via Don G. Fornasini, 13, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.5182125",
+            "lg": "11.3540908",
+            "name": "CAMPANELLI ANNA RITA",
+            "opening": "Lun: 11.00-12.00. Mar: 17.00-19.30. Mer: 17.00-19.30. Ven: 11.00-12.00.",
+            "tel": ""
+        },
+        "med0145": {
+            "address": "Via Giuseppe Ceneri, 8, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.4957904",
+            "lg": "11.3650836",
+            "name": "CAMPANELLI ANNA RITA",
+            "opening": "Lun: 08.30-09.30.",
+            "tel": ""
+        },
+        "med0150": {
+            "address": "Via Federico Beroaldo, 4/2, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.5184235",
+            "lg": "11.3944254",
+            "name": "CAPELLI CARLA",
+            "opening": "Lun: 15.00-19.00. Mar: 15.00-19.00. Mer: 10.30-13.00. Gio: 10.30-13.00. Ven: 15.00-19.00.",
+            "tel": ""
+        },
+        "med0151": {
+            "address": "Via Ferrarese, 70/B, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.5169344",
+            "lg": "11.3549515",
+            "name": "CAPOBIANCO CLAUDIO",
+            "opening": "Lun: 15.30-19.00. Mar: 09.00-12.30. Mer: 15.30-19.00. Gio: 09.00-12.30. Ven: 10.00-13.00.",
+            "tel": ""
+        },
+        "med0159": {
+            "address": "Via Di Corticella, 41, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.5153589",
+            "lg": "11.3478591",
+            "name": "CASADEI MASSIMO",
+            "opening": "Lun: 15.00-18.00. Mar: 09.00-12.00. Mer: 09.00-12.00. Gio: 15.00-18.00. Ven: 15.00-18.00.",
+            "tel": ""
+        },
+        "med0160": {
+            "address": "Via Dell'indipendenza, 56, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.5004318",
+            "lg": "11.3441098",
+            "name": "CASADIO ROBERTO",
+            "opening": "Lun: 15.30-18.00. Mar: 08.30-12.30. Mer: 15.30-19.00. Gio: 15.30-18.00. Ven: 08.30-12.00.",
+            "tel": ""
+        },
+        "med0162": {
+            "address": "Piazza Trento E Trieste, 1, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.4876288",
+            "lg": "11.362453",
+            "name": "CASARINI PIERO",
+            "opening": "Lun: 09.30-11.30. Mar: 15.00-19.00. Mer: 09.30-11.30. Gio: 15.00-19.00. Ven: 08.30-12.30.",
+            "tel": ""
+        },
+        "med0163": {
+            "address": "Via Carlo Alberto Pizzardi, 39, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.4897961",
+            "lg": "11.3687648",
+            "name": "CASARINI PIERO",
+            "opening": "Lun: 09.00-12.00. Mar: 15.00-19.00. Mer: 09.00-12.00. Gio: 09.00-12.00. Ven: 15.00-19.00.",
+            "tel": ""
+        },
+        "med0167": {
+            "address": "Via Castiglione, 51/2, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.4876373",
+            "lg": "11.3480443",
+            "name": "CASTELLITTO ANTHONY",
+            "opening": "Mer: 15.00-16.30. Ven: 15.00-16.00.",
+            "tel": ""
+        },
+        "med0168": {
+            "address": "Via Ferrarese, 158, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.5286045",
+            "lg": "11.3662659",
+            "name": "CASTELLITTO ANTHONY",
+            "opening": "Lun: 09.00-10.00. Mar: 15.30-16.30. Gio: 08.30-10.00.",
+            "tel": ""
+        },
+        "med0169": {
+            "address": "Via San Donato, 158, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.508397",
+            "lg": "11.3776971",
+            "name": "CASTELLITTO ANTHONY",
+            "opening": "Lun: 17.00-19.00. Mar: 10.00-12.00. Mer: 10.00-12.00. Gio: 17.00-19.00. Ven: 10.00-12.00.",
+            "tel": ""
+        },
+        "med0170": {
+            "address": "Via Genuzio Bentini, 24/C, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.5467663",
+            "lg": "11.3564304",
+            "name": "CAU ROBERTO",
+            "opening": "Lun: 08.30-12.00. Mar: 08.30-12.00. Mer: 08.30-11.00. Gio: 08.30-12.00. Ven: 15.00-19.00.",
+            "tel": ""
+        },
+        "med0171": {
+            "address": "Via Degli Orti, 62, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.4759837",
+            "lg": "11.3773126",
+            "name": "CAVALLO LO MAGNO MARIO",
+            "opening": "Lun: 14.30-16.00. Mar: 10.00-11.00. Mer: 14.30-16.00. Gio: 10.30-12.00. Ven: 10.30-12.00.",
+            "tel": ""
+        },
+        "med0172": {
+            "address": "Via San Felice, 83, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.4977067",
+            "lg": "11.3319579",
+            "name": "CAVALLO LO MAGNO MARIO",
+            "opening": "Lun: 11.00-12.00. Mar: 16.00-17.30. Mer: 16.00-17.30. Ven: 16.00-17.30.",
+            "tel": ""
+        },
+        "med0175": {
+            "address": "Via Lemonia, 45/e, 45/E, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.506869",
+            "lg": "11.2985417",
+            "name": "CAVAZZONI RENZO",
+            "opening": "Lun: 11.00-13.00. Mar: 15.00-19.30. Mer: 11.00-13.00. Gio: 15.00-19.00. Ven: 11.00-13.00.",
+            "tel": ""
+        },
+        "med0176": {
+            "address": "Via Pasubio, 92/B, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.4977864",
+            "lg": "11.3203965",
+            "name": "CAVAZZONI RENZO",
+            "opening": "Lun: 15.30-18.30. Mar: 11.00-12.30. Mer: 15.30-18.30. Gio: 11.00-12.30. Ven: 15.30-18.30.",
+            "tel": ""
+        },
+        "med0185": {
+            "address": "Piazza Dell'unita', 15/A, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.510942",
+            "lg": "11.3480027",
+            "name": "CHIERICI STEFANO",
+            "opening": "Lun: 18.30-20.00. Mar: 18.00-19.30. Mer: 18.30-20.00. Gio: 18.00-19.30. Ven: 18.00-19.30.",
+            "tel": ""
+        },
+        "med0186": {
+            "address": "Via Sardegna, 1, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.4765275",
+            "lg": "11.3832535",
+            "name": "CHIESURA ANTONIO",
+            "opening": "Lun: 16.00-19.00. Mar: 09.00-12.00. Mer: 16.00-19.00. Gio: 09.00-12.00. Ven: 09.00-12.00.",
+            "tel": ""
+        },
+        "med0187": {
+            "address": "Via Gatti, 4, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.5433244",
+            "lg": "11.3561089",
+            "name": "CHIRIACO' LUCIANO",
+            "opening": "Lun: 09.00-12.30. Mar: 16.30-19.00. Mer: 09.00-12.30. Gio: 16.30-19.00. Ven: 09.30-12.30.",
+            "tel": ""
+        },
+        "med0188": {
+            "address": "Via Giacomo Matteotti, 29, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.5083818",
+            "lg": "11.3465583",
+            "name": "CHIRIACO' LUCIANO",
+            "opening": "Lun: 16.00-20.00. Mar: 14.30-16.30. Mer: 08.00-09.00. Gio: 08.00-10.00. Ven: 15.00-19.00.",
+            "tel": ""
+        },
+        "med0189": {
+            "address": "Via Fiorita, 2, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.4824617",
+            "lg": "11.3769628",
+            "name": "CIARDULLI CARMINE",
+            "opening": "Lun: 14.30-16.00. Mer: 08.30-10.30. Gio: 18.00-19.30. Ven: 08.45-11.00.",
+            "tel": ""
+        },
+        "med0190": {
+            "address": "Via Giuseppe Massarenti, 254, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.493515",
+            "lg": "11.3745758",
+            "name": "CIARDULLI CARMINE",
+            "opening": "Lun: 16.30-19.00. Mar: 15.00-19.00. Mer: 15.00-17.30. Gio: 15.00-18.00. Ven: 16.30-19.00.",
+            "tel": ""
+        },
+        "med0191": {
+            "address": "Via Alfonsine, 2, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.4742392",
+            "lg": "11.3880905",
+            "name": "CICOGNANI MICHELE",
+            "opening": "Lun: 16.00-19.00. Mar: 16.00-19.00. Mer: 08.30-11.30. Gio: 15.30-19.00. Ven: 08.30-11.30.",
+            "tel": ""
+        },
+        "med0196": {
+            "address": "Via Adelaide Borghi Mamo, 8/A, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.4772",
+            "lg": "11.3608434",
+            "name": "CIPOLLANI FRANCA",
+            "opening": "Lun: 09.00-12.00. Mar: 15.00-16.00. Mer: 09.00-12.00. Gio: 09.00-10.30. Ven: 12.00-13.00.",
+            "tel": ""
+        },
+        "med0197": {
+            "address": "Via Augusto Murri, 185, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.4737284",
+            "lg": "11.3684804",
+            "name": "CIPOLLANI FRANCA",
+            "opening": "Mar: 16.00-18.30. Gio: 15.30-16.30. Ven: 09.00-12.00.",
+            "tel": ""
+        },
+        "med0201": {
+            "address": "Via Marco Emilio Lepido, 177, 177, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.5198759",
+            "lg": "11.2683192",
+            "name": "COLELLA PASQUALE",
+            "opening": "Lun: 09.00-13.00. Mar: 09.00-13.00. Mer: 15.00-19.00. Gio: 15.00-19.00. Ven: 09.00-13.00.",
+            "tel": ""
+        },
+        "med0206": {
+            "address": "Via Broccaindosso, 5, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.491797",
+            "lg": "11.3545773",
+            "name": "COMELLINI MARCO",
+            "opening": "Lun: 16.00-20.00. Mar: 16.00-19.30. Mer: 16.00-20.00. Gio: 16.00-19.30. Ven: 16.00-19.30.",
+            "tel": ""
+        },
+        "med0208": {
+            "address": "Via Mazzini, 95, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.4870887",
+            "lg": "11.3652686",
+            "name": "CONSOLINI PIER LUIGI",
+            "opening": "Lun: 10.00-12.00. Mar: 18.00-19.30. Gio: 14.00-16.00.",
+            "tel": ""
+        },
+        "med0209": {
+            "address": "Via Pietro Mascagni, 9, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.4698989",
+            "lg": "11.3738275",
+            "name": "CONSOLINI PIER LUIGI",
+            "opening": "Lun: 16.30-19.00. Mar: 14.00-16.30. Mer: 16.30-19.00. Gio: 09.00-11.00. Ven: 14.00-16.30.",
+            "tel": ""
+        },
+        "med0212": {
+            "address": "Via Parigi, 15, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.4966685",
+            "lg": "11.3403831",
+            "name": "CONTINI LUIGI",
+            "opening": "Lun: 17.00-18.30. Mar: 10.30-12.00. Mer: 17.00-18.30. Gio: 10.30-12.00. Ven: 10.30-12.00.",
+            "tel": ""
+        },
+        "med0213": {
+            "address": "Piazza Grigoris Lambrakis, 2, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.4773266",
+            "lg": "11.3971765",
+            "name": "CONTISSA FELICE",
+            "opening": "Lun: 11.00-12.30. Mar: 16.00-18.00. Mer: 17.00-18.30. Gio: 11.00-12.30. Ven: 10.30-12.30.",
+            "tel": ""
+        },
+        "med0214": {
+            "address": "Via Giuseppe Massarenti, 179, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.4933827",
+            "lg": "11.3832155",
+            "name": "CONTISSA FELICE",
+            "opening": "Lun: 16.00-18.00. Mer: 16.00-18.00. Ven: 16.15-18.00.",
+            "tel": ""
+        },
+        "med0215": {
+            "address": "Via Grazia Deledda, 12/A, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.5095318",
+            "lg": "11.3970831",
+            "name": "CONTISSA FELICE",
+            "opening": "Lun: 11.00-12.30. Mar: 11.00-12.30. Mer: 11.00-12.30. Gio: 16.00-19.00. Ven: 15.00-16.00.",
+            "tel": ""
+        },
+        "med0221": {
+            "address": "Via Augusto Righi, 6, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.4990533",
+            "lg": "11.3445066",
+            "name": "CORDELLA ANTONIO",
+            "opening": "Lun: 18.30-19.30. Mar: 11.30-12.30. Gio: 11.00-12.00. Ven: 13.30-14.30.",
+            "tel": ""
+        },
+        "med0222": {
+            "address": "Via Battindarno, 157/2, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.4979913",
+            "lg": "11.2952331",
+            "name": "CORDELLA ANTONIO",
+            "opening": "Lun: 09.30-11.00. Mer: 17.00-18.30. Ven: 09.30-10.30.",
+            "tel": ""
+        },
+        "med0223": {
+            "address": "Via Parigi, 15, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.4966685",
+            "lg": "11.3403831",
+            "name": "CORDELLA ANTONIO",
+            "opening": "Lun: 15.00-16.00. Mar: 09.30-10.30. Mer: 15.00-16.00. Gio: 08.30-10.30. Ven: 11.30-13.00.",
+            "tel": ""
+        },
+        "med0225": {
+            "address": "Via Santo Stefano, 82, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.4876418",
+            "lg": "11.3526841",
+            "name": "COSTANTINI ALESSANDRO",
+            "opening": "Lun: 10.30-12.30. Mar: 17.00-19.00. Mer: 17.00-19.00. Gio: 17.00-19.00. Ven: 10.30-12.30. Sab: 11.00-12.00.",
+            "tel": ""
+        },
+        "med0226": {
+            "address": "Via Battindarno, 157/2, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.4979913",
+            "lg": "11.2952331",
+            "name": "CREMONINI PAOLO",
+            "opening": "Lun: 15.30-18.30. Mar: 09.30-12.00. Mer: 09.30-12.00. Gio: 16.00-18.30. Ven: 14.30-15.30.",
+            "tel": ""
+        },
+        "med0228": {
+            "address": "Via Parigi, 15, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.4966685",
+            "lg": "11.3403831",
+            "name": "CROOKE ALDO STEFANO",
+            "opening": "Lun: 11.00-13.00. Mar: 17.00-19.00. Mer: 08.30-10.30. Gio: 17.00-19.00. Ven: 17.00-19.00.",
+            "tel": ""
+        },
+        "med0229": {
+            "address": "Via Luigi Pirandello, 14/l, 14/L, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.5117194",
+            "lg": "11.3900167",
+            "name": "CUPPINI ANNA ROSA",
+            "opening": "Lun: 10.00-12.30. Mar: 16.30-18.30. Mer: 09.30-11.00. Gio: 10.00-12.00. Ven: 10.00-12.00.",
+            "tel": ""
+        },
+        "med0232": {
+            "address": "Via Aristotile Fioravanti, 57, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.513237",
+            "lg": "11.3418574",
+            "name": "CURTI GABRIELE",
+            "opening": "Lun: 16.00-19.30. Mar: 16.00-19.30. Mer: 16.00-19.30. Gio: 16.00-19.30. Ven: 16.00-19.30.",
+            "tel": ""
+        },
+        "med0233": {
+            "address": "Via Agucchi, 216/B, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.5246161",
+            "lg": "11.3150659",
+            "name": "CURTI MAURIZIO",
+            "opening": "Lun: 19.00-21.00. Mar: 17.30-19.00. Mer: 14.30-16.00. Gio: 17.00-19.00. Ven: 17.00-19.00.",
+            "tel": ""
+        },
+        "med0234": {
+            "address": "Via Agucchi, 216/B, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.5246161",
+            "lg": "11.3150659",
+            "name": "CURTI MAURIZIO",
+            "opening": "",
+            "tel": ""
+        },
+        "med0235": {
+            "address": "Via Guerrazzi, 28, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.4905327",
+            "lg": "11.3508155",
+            "name": "DALAITI ANDREA",
+            "opening": "Lun: 08.30-10.00. Mar: 15.00-19.00. Mer: 15.00-19.00. Gio: 08.30-10.00. Ven: 15.00-19.00.",
+            "tel": ""
+        },
+        "med0241": {
+            "address": "Via San Donato, 158/2, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.508397",
+            "lg": "11.3776971",
+            "name": "DE BELLIS PIETRO",
+            "opening": "Lun: 08.00-11.00. Mar: 08.00-11.00. Mer: 14.30-19.30. Gio: 14.30-19.30. Ven: 08.00-11.00.",
+            "tel": ""
+        },
+        "med0242": {
+            "address": "Via Augusto Righi, 6, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.4990533",
+            "lg": "11.3445066",
+            "name": "DE CAMILLIS MANUELA",
+            "opening": "Lun: 08.30-13.00. Mar: 08.30-12.00. Mer: 14.00-16.00. Gio: 14.00-16.00. Ven: 08.30-12.00.",
+            "tel": ""
+        },
+        "med0247": {
+            "address": "Via Rodolfo Audinot, 41, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.4918511",
+            "lg": "11.327201",
+            "name": "DE SANTIS FRANCO",
+            "opening": "Lun: 16.00-19.00. Mar: 09.00-12.00. Mer: 09.00-11.00. Ven: 16.00-19.00.",
+            "tel": ""
+        },
+        "med0248": {
+            "address": "Via Ugo Bassi, 1, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.4949951",
+            "lg": "11.3420289",
+            "name": "DE SANTIS FRANCO",
+            "opening": "Lun: 09.00-12.00. Mar: 15.00-17.00. Mer: 15.00-17.00. Gio: 09.00-11.00. Ven: 09.15-12.00.",
+            "tel": ""
+        },
+        "med0250": {
+            "address": "Piazza Di Porta Mascarella, 7/A, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.5019064",
+            "lg": "11.3530198",
+            "name": "DE SENEEN MICHELE",
+            "opening": "Lun: 16.00-17.00. Mer: 17.00-18.00.",
+            "tel": ""
+        },
+        "med0251": {
+            "address": "Via Augusto Murri, 131, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.4774437",
+            "lg": "11.3660881",
+            "name": "DE SENEEN MICHELE",
+            "opening": "Lun: 11.30-13.00. Mar: 17.30-19.00. Mer: 11.30-13.00. Gio: 17.30-19.00. Ven: 16.30-18.00.",
+            "tel": ""
+        },
+        "med0254": {
+            "address": "Piazza Di Porta Mascarella, 7, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.5019064",
+            "lg": "11.3530198",
+            "name": "DE VICARIIS MARIA IMMACOLATA",
+            "opening": "Mar: 08.30-09.30. Mer: 08.30-09.30. Ven: 08.30-09.30.",
+            "tel": ""
+        },
+        "med0255": {
+            "address": "Via Della Barca, 2, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.4926724",
+            "lg": "11.3010016",
+            "name": "DE VICARIIS MARIA IMMACOLATA",
+            "opening": "Lun: 15.30-17.00. Mar: 10.00-12.00. Mer: 18.00-19.00. Gio: 09.30-11.30. Ven: 10.00-12.00.",
+            "tel": ""
+        },
+        "med0256": {
+            "address": "Via Marco Emilio Lepido, 151, 151, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.5187247",
+            "lg": "11.2718303",
+            "name": "DE VICARIIS MARIA IMMACOLATA",
+            "opening": "Lun: 10.00-12.00. Mar: 17.00-19.00. Mer: 15.00-17.00. Gio: 17.00-19.00. Ven: 15.00-17.00.",
+            "tel": ""
+        },
+        "med0259": {
+            "address": "Piazza Clodoveo Bonazzi, 2, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.4964047",
+            "lg": "11.2930752",
+            "name": "DEL VECCHIO AURELIO",
+            "opening": "Lun: 08.30-10.30. Mar: 09.00-10.00. Mer: 08.30-10.00. Gio: 14.00-15.00. Ven: 08.30-10.00.",
+            "tel": ""
+        },
+        "med0260": {
+            "address": "Via Della Barca, 2, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.4926724",
+            "lg": "11.3010016",
+            "name": "DEL VECCHIO AURELIO",
+            "opening": "Lun: 16.45-19.30. Mar: 16.45-19.30. Mer: 16.30-20.00. Gio: 16.45-19.30. Ven: 16.45-19.30.",
+            "tel": ""
+        },
+        "med0265": {
+            "address": "Via Emilia Ponente, 26, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.5045354",
+            "lg": "11.3123611",
+            "name": "DELL'ISOLA GIULIO",
+            "opening": "Lun: 16.00-18.30. Mar: 10.00-12.30. Mer: 10.00-12.30. Gio: 10.00-12.30. Ven: 10.00-12.30.",
+            "tel": ""
+        },
+        "med0266": {
+            "address": "Via Marco Emilio Lepido, 177, 177, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.5198759",
+            "lg": "11.2683192",
+            "name": "DENI CECILIA",
+            "opening": "Lun: 09.00-13.00. Mar: 15.00-19.00. Mer: 09.00-13.00. Gio: 15.00-19.00. Ven: 09.00-13.00.",
+            "tel": ""
+        },
+        "med0268": {
+            "address": "Via Guglielmo Oberdan, 10, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.4952928",
+            "lg": "11.3455709",
+            "name": "DI FALCO ANTONELLA",
+            "opening": "Lun: 10.00-12.00. Mar: 10.00-12.00. Mer: 16.00-18.00. Gio: 13.30-14.30. Ven: 10.00-12.00.",
+            "tel": ""
+        },
+        "med0269": {
+            "address": "Via Emilia Ponente, 26, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.5045354",
+            "lg": "11.3123611",
+            "name": "DI GIACOMO ARTURO",
+            "opening": "Lun: 10.00-13.00. Mar: 10.00-13.00. Mer: 15.30-18.30. Gio: 10.00-13.00. Ven: 15.30-18.30.",
+            "tel": ""
+        },
+        "med0273": {
+            "address": "Via Degli Orti, 62, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.4759837",
+            "lg": "11.3773126",
+            "name": "DONATO ALFONSO",
+            "opening": "Lun: 15.00-17.00. Mar: 15.00-16.00. Mer: 17.00-19.00. Gio: 16.00-17.00. Ven: 16.30-19.00.",
+            "tel": ""
+        },
+        "med0278": {
+            "address": "Via San Donato, 134, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.5062747",
+            "lg": "11.3738796",
+            "name": "DOVESI ANNA",
+            "opening": "Lun: 15.00-18.00. Mar: 15.00-18.00. Mer: 09.00-12.00. Gio: 15.00-18.00. Ven: 09.00-12.00.",
+            "tel": ""
+        },
+        "med0282": {
+            "address": "Via D'azeglio, 16, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.4925109",
+            "lg": "11.3420041",
+            "name": "ELEONORI ROBERTO",
+            "opening": "Lun: 16.00-17.30. Mar: 16.00-17.30. Mer: 16.00-17.30. Gio: 16.00-17.30. Ven: 16.00-17.30.",
+            "tel": ""
+        },
+        "med0283": {
+            "address": "Via Fiorita, 2, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.4824617",
+            "lg": "11.3769628",
+            "name": "ELEONORI ROBERTO",
+            "opening": "Mar: 10.45-12.00. Gio: 10.45-12.00.",
+            "tel": ""
+        },
+        "med0286": {
+            "address": "Via Dell'indipendenza, 56, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.5004318",
+            "lg": "11.3441098",
+            "name": "ERMINI GIULIANO",
+            "opening": "Lun: 08.30-11.00. Mer: 08.30-11.00. Ven: 15.30-19.00.",
+            "tel": ""
+        },
+        "med0287": {
+            "address": "Via Pontida, 20, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.5240919",
+            "lg": "11.2672301",
+            "name": "ERMINI GIULIANO",
+            "opening": "Lun: 16.00-19.00. Mar: 08.00-11.00. Mer: 16.00-19.00. Gio: 16.00-19.00. Ven: 08.00-11.00.",
+            "tel": ""
+        },
+        "med0288": {
+            "address": "Via Pontida, 20, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.5240919",
+            "lg": "11.2672301",
+            "name": "ERMINI GIULIANO",
+            "opening": "",
+            "tel": ""
+        },
+        "med0289": {
+            "address": "Via Gatti, 4, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.5433244",
+            "lg": "11.3561089",
+            "name": "FANTINELLI SAURO",
+            "opening": "Lun: 15.00-19.00. Mar: 10.00-12.30. Mer: 15.00-19.00. Gio: 10.00-12.30. Ven: 15.00-19.00.",
+            "tel": ""
+        },
+        "med0291": {
+            "address": "Via Cherubini, 5, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.466768",
+            "lg": "11.378288",
+            "name": "FARINA GIAMPAOLO",
+            "opening": "Lun: 09.30-12.30. Mar: 16.30-19.30. Mer: 09.30-12.30. Gio: 15.00-18.30. Ven: 09.00-12.30.",
+            "tel": ""
+        },
+        "med0292": {
+            "address": "Via Giacomo Matteotti, 29, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.5083818",
+            "lg": "11.3465583",
+            "name": "FARIOLI FRANCESCA",
+            "opening": "Lun: 08.30-10.30. Mar: 10.00-13.00. Mer: 10.00-12.00. Gio: 10.00-12.00. Ven: 16.00-19.00.",
+            "tel": ""
+        },
+        "med0293": {
+            "address": "Piazza Grigoris Lambrakis, 2, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.4773266",
+            "lg": "11.3971765",
+            "name": "FARNETI PIERO",
+            "opening": "Lun: 11.30-12.30. Mar: 18.00-19.00. Gio: 18.00-19.00. Ven: 11.30-12.30.",
+            "tel": ""
+        },
+        "med0294": {
+            "address": "Via Augusto Murri, 131, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.4774437",
+            "lg": "11.3660881",
+            "name": "FARNETI PIERO",
+            "opening": "Lun: 15.00-17.30. Mar: 10.00-12.00. Mer: 15.00-17.30. Gio: 10.00-12.00. Ven: 15.00-17.30.",
+            "tel": ""
+        },
+        "med0296": {
+            "address": "Via Isabella Andreini, 4, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.5052441",
+            "lg": "11.372385",
+            "name": "FEROCINO AGATA",
+            "opening": "Lun: 08.30-12.30. Mar: 15.30-19.00. Mer: 08.30-12.30. Gio: 15.30-19.00. Ven: 08.30-12.30.",
+            "tel": ""
+        },
+        "med0297": {
+            "address": "Piazza Clodoveo Bonazzi, 3, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.4965685",
+            "lg": "11.2930728",
+            "name": "FERRARESI ANDREA",
+            "opening": "Lun: 16.30-17.30. Mar: 11.30-12.30. Mer: 14.30-15.30. Gio: 11.30-12.30. Ven: 17.30-18.30.",
+            "tel": ""
+        },
+        "med0298": {
+            "address": "Via San Donato, 150, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.5070288",
+            "lg": "11.3756175",
+            "name": "FERRARI CLAUDIO",
+            "opening": "Lun: 15.00-19.00. Mar: 15.00-19.00. Mer: 10.00-11.00. Gio: 10.00-11.00. Ven: 15.00-19.00.",
+            "tel": ""
+        },
+        "med0299": {
+            "address": "Via Augusto Righi, 6, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.4990533",
+            "lg": "11.3445066",
+            "name": "FERRARI GIUSEPPE",
+            "opening": "Lun: 15.00-17.30. Mer: 08.00-08.30. Ven: 11.30-12.30.",
+            "tel": ""
+        },
+        "med0300": {
+            "address": "Via Giuseppe Massarenti, 112, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.4925209",
+            "lg": "11.3655995",
+            "name": "FERRARI GIUSEPPE",
+            "opening": "Lun: 11.00-13.00. Mar: 10.30-13.00. Mer: 11.00-13.00. Gio: 11.00-13.00. Ven: 16.00-18.30.",
+            "tel": ""
+        },
+        "med0301": {
+            "address": "Via Nicolo' Dall'arca, 19/2B, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.5097236",
+            "lg": "11.3429564",
+            "name": "FERRERIO GIUSEPPE",
+            "opening": "Lun: 09.30-12.30. Mar: 09.30-12.30. Mer: 09.30-12.30. Gio: 16.00-19.00. Ven: 09.30-12.30.",
+            "tel": ""
+        },
+        "med0303": {
+            "address": "Via De' Coltelli, 26, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.4871408",
+            "lg": "11.3501593",
+            "name": "FERSINI FRANCO",
+            "opening": "Lun: 15.15-19.00. Mar: 10.00-12.00. Mer: 15.15-19.00. Gio: 10.00-12.00. Ven: 15.15-19.00.",
+            "tel": ""
+        },
+        "med0305": {
+            "address": "Via Di Corticella, 41, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.5153589",
+            "lg": "11.3478591",
+            "name": "FINELLI IRENE",
+            "opening": "Lun: 15.00-18.30. Mar: 15.30-18.30. Mer: 09.00-11.30. Gio: 15.00-18.30. Ven: 09.00-11.30.",
+            "tel": ""
+        },
+        "med0311": {
+            "address": "Via Parigi, 15, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.4966685",
+            "lg": "11.3403831",
+            "name": "FORESTI ALESSANDRA",
+            "opening": "Lun: 10.00-13.00. Mar: 14.00-17.30. Mer: 10.00-13.00. Gio: 09.00-13.00. Ven: 13.00-13.00.",
+            "tel": ""
+        },
+        "med0312": {
+            "address": "Viale Abramo Lincoln, 72/A, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.4822394",
+            "lg": "11.3925084",
+            "name": "FORESTI ALESSANDRA",
+            "opening": "Lun: 17.00-18.30. Mar: 11.00-12.30. Mer: 17.00-18.30.",
+            "tel": ""
+        },
+        "med0320": {
+            "address": "Via Alceste Giovannini, 10, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.5182264",
+            "lg": "11.3392319",
+            "name": "FRANZE' MARIA GRAZIA",
+            "opening": "Lun: 15.30-19.00. Mar: 09.30-12.30. Mer: 15.30-19.00. Gio: 09.30-12.30. Ven: 13.00-14.00.",
+            "tel": ""
+        },
+        "med0321": {
+            "address": "Via Augusto Murri, 16, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.4829517",
+            "lg": "11.3589759",
+            "name": "FRANZE' MARIA GRAZIA",
+            "opening": "Mar: 15.30-17.30. Mer: 09.30-11.30. Ven: 09.30-11.30.",
+            "tel": ""
+        },
+        "med0323": {
+            "address": "Via Marco Polo, 22/b, 22/B, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.5187958",
+            "lg": "11.3287469",
+            "name": "FREZZOTTI DANIELA",
+            "opening": "Lun: 09.00-12.00. Mar: 09.00-12.00. Mer: 15.30-18.30. Gio: 09.00-12.00. Ven: 09.00-12.00.",
+            "tel": ""
+        },
+        "med0324": {
+            "address": "Via D'azeglio, 16, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.4925109",
+            "lg": "11.3420041",
+            "name": "FURLO' GIANCARLO",
+            "opening": "Mar: 08.00-09.30. Gio: 08.00-09.30. Ven: 08.00-09.30.",
+            "tel": ""
+        },
+        "med0325": {
+            "address": "Via Degli Orti, 62, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.4759837",
+            "lg": "11.3773126",
+            "name": "FURLO' GIANCARLO",
+            "opening": "Lun: 08.00-11.00. Mar: 15.00-19.00. Mer: 08.00-11.00. Gio: 15.00-19.00. Ven: 15.00-19.00.",
+            "tel": ""
+        },
+        "med0326": {
+            "address": "Via Degli Orti, 62, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.4759837",
+            "lg": "11.3773126",
+            "name": "FURLO' GIANCARLO",
+            "opening": "",
+            "tel": ""
+        },
+        "med0327": {
+            "address": "Via Genuzio Bentini, 39, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.546796",
+            "lg": "11.3564719",
+            "name": "GABUSI STEFANO",
+            "opening": "Lun: 09.00-10.00. Mar: 17.00-19.00. Gio: 09.00-10.00. Ven: 17.00-19.00.",
+            "tel": ""
+        },
+        "med0328": {
+            "address": "Via Zampieri, 21/3C, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.5094039",
+            "lg": "11.3430322",
+            "name": "GABUSI STEFANO",
+            "opening": "Lun: 16.00-19.00. Mar: 08.30-11.30. Mer: 16.00-19.00. Gio: 16.00-19.00. Ven: 08.30-12.00.",
+            "tel": ""
+        },
+        "med0330": {
+            "address": "Vicolo Sant'arcangelo, 2, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.4931256",
+            "lg": "11.3400558",
+            "name": "GAGGIOLI GIORGIO",
+            "opening": "Lun: 15.30-18.30. Mar: 15.30-18.30. Mer: 15.30-18.30. Gio: 15.30-18.30. Ven: 15.30-18.30.",
+            "tel": ""
+        },
+        "med0333": {
+            "address": "Via Arno, 36, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.4728125",
+            "lg": "11.3874738",
+            "name": "GALATI MICHELE",
+            "opening": "Lun: 15.30-19.00. Mar: 09.30-12.30. Mer: 15.30-19.00. Gio: 09.30-12.30. Ven: 15.30-18.00.",
+            "tel": ""
+        },
+        "med0334": {
+            "address": "Via Del Triumvirato, 28, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.5190408",
+            "lg": "11.2938234",
+            "name": "GALAVERNI GIORGIO",
+            "opening": "Lun: 09.30-11.00. Mer: 16.00-17.30. Ven: 09.30-11.00.",
+            "tel": ""
+        },
+        "med0335": {
+            "address": "Via Taddeo Alderotti, 1, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.5036428",
+            "lg": "11.2929221",
+            "name": "GALAVERNI GIORGIO",
+            "opening": "Lun: 15.30-18.00. Mar: 09.00-11.00. Mer: 09.00-11.00. Gio: 15.30-18.00. Ven: 15.30-18.00.",
+            "tel": ""
+        },
+        "med0336": {
+            "address": "Via Amendola, 13, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.5046419",
+            "lg": "11.3411813",
+            "name": "GALBIATI MAURIZIO",
+            "opening": "Lun: 14.15-16.00. Mar: 14.15-16.00. Mer: 14.15-16.00. Gio: 14.15-16.00. Ven: 14.15-16.00.",
+            "tel": ""
+        },
+        "med0337": {
+            "address": "Via Della Ca' Bianca, 14, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.5232475",
+            "lg": "11.3202454",
+            "name": "GALBIATI MAURIZIO",
+            "opening": "Lun: 16.30-18.30. Mar: 16.30-18.30. Mer: 09.00-11.00. Gio: 16.30-18.30. Ven: 16.30-18.30.",
+            "tel": ""
+        },
+        "med0343": {
+            "address": "Via G. Cesare Croce, 2/4/B, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.4942708",
+            "lg": "11.3565639",
+            "name": "GALVANI ROBERTO",
+            "opening": "Lun: 15.30-17.00. Mar: 15.30-17.00. Mer: 15.30-17.00. Gio: 15.30-17.00. Ven: 15.30-17.00.",
+            "tel": ""
+        },
+        "med0344": {
+            "address": "Via Dal Lino, 2/A, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.4915229",
+            "lg": "11.3056843",
+            "name": "GAMBERINI PIER STEFANO",
+            "opening": "Mar: 16.00-19.00. Gio: 16.00-19.00. Ven: 10.00-12.30.",
+            "tel": ""
+        },
+        "med0345": {
+            "address": "Via Mascarella, 62/A, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.5001493",
+            "lg": "11.3508271",
+            "name": "GAMBERINI PIER STEFANO",
+            "opening": "Lun: 15.30-18.30. Mar: 09.00-11.00. Mer: 09.00-12.00. Gio: 09.00-11.00. Ven: 16.00-18.30.",
+            "tel": ""
+        },
+        "med0346": {
+            "address": "Via Della Beverara, 156, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.5201378",
+            "lg": "11.3308632",
+            "name": "GAMBERINI SILVANO",
+            "opening": "Lun: 14.30-18.30. Mar: 14.30-18.30. Mer: 14.30-18.30. Gio: 14.30-18.30. Ven: 14.30-18.30.",
+            "tel": ""
+        },
+        "med0348": {
+            "address": "Via Leandro Alberti, 50/a, 50/A, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.4838008",
+            "lg": "11.370228",
+            "name": "GARDELLI TULLIO",
+            "opening": "Lun: 17.00-19.30. Mar: 15.00-19.00. Mer: 09.00-12.30. Gio: 15.00-19.00. Ven: 09.00-12.00.",
+            "tel": ""
+        },
+        "med0351": {
+            "address": "Via Caduti Di Casteldebole, 66, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.4991623",
+            "lg": "11.2764434",
+            "name": "GARDO VITTORIA",
+            "opening": "Lun: 08.00-11.30. Mar: 15.30-19.00. Mer: 08.00-11.30. Gio: 15.30-19.00. Ven: 08.00-11.30.",
+            "tel": ""
+        },
+        "med0355": {
+            "address": "Via San Mamolo, 23, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.4856432",
+            "lg": "11.3393541",
+            "name": "GATTI GIOVANNI",
+            "opening": "Lun: 09.00-13.00. Mar: 15.00-19.00. Mer: 15.00-19.00. Gio: 09.00-13.00. Ven: 09.00-12.00.",
+            "tel": ""
+        },
+        "med0356": {
+            "address": "Via Del Meloncello, 2, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.4900212",
+            "lg": "11.3112418",
+            "name": "GAUDIOSO MONICA",
+            "opening": "Lun: 18.00-19.00. Mar: 11.00-12.30. Mer: 18.00-19.00. Gio: 11.00-12.00. Ven: 15.30-16.30.",
+            "tel": ""
+        },
+        "med0357": {
+            "address": "Via Pietro Mascagni, 9, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.4698989",
+            "lg": "11.3738275",
+            "name": "GAUDIOSO MONICA",
+            "opening": "Lun: 09.00-10.00. Mar: 18.00-19.00. Mer: 09.00-10.00. Gio: 15.00-16.00. Ven: 09.00-10.00.",
+            "tel": ""
+        },
+        "med0358": {
+            "address": "Via Federico Beroaldo, 4/2, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.5184235",
+            "lg": "11.3944254",
+            "name": "GELATI GIANCARLA",
+            "opening": "Lun: 08.30-11.30. Mar: 15.00-18.30. Mer: 08.30-11.30. Gio: 15.00-18.30. Ven: 08.30-11.30.",
+            "tel": ""
+        },
+        "med0361": {
+            "address": "Via Degli Orti, 62, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.4759837",
+            "lg": "11.3773126",
+            "name": "GENTILI FABIO",
+            "opening": "Lun: 11.00-13.00. Mar: 11.00-13.00. Mer: 11.00-13.00. Gio: 15.00-18.00. Ven: 15.00-18.00.",
+            "tel": ""
+        },
+        "med0362": {
+            "address": "Via San Donato, 158/2, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.508397",
+            "lg": "11.3776971",
+            "name": "GENTILI FABIO",
+            "opening": "Lun: 15.00-18.00. Mar: 15.00-18.00. Gio: 10.30-12.30.",
+            "tel": ""
+        },
+        "med0363": {
+            "address": "Via Piero Gobetti, 1, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.5132319",
+            "lg": "11.3414785",
+            "name": "GERSON KENNETH",
+            "opening": "Lun: 16.00-19.30. Mar: 09.00-12.00. Mer: 16.00-19.30. Gio: 16.00-19.30. Ven: 09.00-12.00.",
+            "tel": ""
+        },
+        "med0365": {
+            "address": "Via Cherubini, 5, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.466768",
+            "lg": "11.378288",
+            "name": "GHILARDI BRUNELLA",
+            "opening": "Lun: 15.30-18.30. Mar: 09.00-11.30. Mer: 15.30-18.30. Gio: 09.00-11.30. Ven: 11.00-13.00.",
+            "tel": ""
+        },
+        "med0371": {
+            "address": "Via Marco Emilio Lepido, 177, 177, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.5198759",
+            "lg": "11.2683192",
+            "name": "GIOVETTI ENZO",
+            "opening": "Lun: 15.30-19.00. Mar: 09.00-13.00. Mer: 15.30-19.00. Gio: 09.00-13.00. Ven: 15.30-19.00.",
+            "tel": ""
+        },
+        "med0377": {
+            "address": "Via Guglielmo Oberdan, 10, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.4952928",
+            "lg": "11.3455709",
+            "name": "GRANDINI PAOLA",
+            "opening": "Lun: 09.30-11.30. Mar: 09.30-11.30. Mer: 09.30-11.30. Gio: 09.30-11.30. Ven: 09.30-11.30.",
+            "tel": ""
+        },
+        "med0378": {
+            "address": "Via Augusto Murri, 154/A, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.4744656",
+            "lg": "11.3682915",
+            "name": "GRASSI MARILENA",
+            "opening": "Lun: 15.00-18.00. Mar: 09.00-12.00. Mer: 09.00-12.00. Gio: 09.00-12.00. Ven: 15.00-18.00.",
+            "tel": ""
+        },
+        "med0386": {
+            "address": "Via Nani, 10, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.5185598",
+            "lg": "11.2782348",
+            "name": "GRILLINI GIGLIOLA",
+            "opening": "Lun: 09.00-12.30. Mar: 16.00-19.30. Mer: 16.30-19.30. Gio: 16.00-19.30. Ven: 09.00-12.30.",
+            "tel": ""
+        },
+        "med0388": {
+            "address": "Via Caduti Di Casteldebole, 66, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.4991623",
+            "lg": "11.2764434",
+            "name": "GUALANDRA ROSSELLA",
+            "opening": "Lun: 15.30-19.00. Mar: 08.00-11.00. Mer: 15.30-19.00. Gio: 08.30-11.30. Ven: 15.30-18.30.",
+            "tel": ""
+        },
+        "med0389": {
+            "address": "Via Pietro Mengoli, 27, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.4893612",
+            "lg": "11.3718327",
+            "name": "GUASINA MARCO",
+            "opening": "Lun: 15.30-19.00. Mar: 15.30-19.00. Mer: 10.00-12.30. Gio: 15.30-19.00. Ven: 10.00-12.30.",
+            "tel": ""
+        },
+        "med0401": {
+            "address": "Via Augusto Murri, 92/D, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.4787661",
+            "lg": "11.3652143",
+            "name": "IENNA SALVATORE",
+            "opening": "Lun: 09.00-11.00. Mar: 09.00-11.00. Mer: 15.30-18.00. Gio: 09.00-11.00. Ven: 09.00-11.00.",
+            "tel": ""
+        },
+        "med0403": {
+            "address": "Via Cherubini, 5/B, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.466768",
+            "lg": "11.378288",
+            "name": "INFUSINI ANTONIO ERNESTO",
+            "opening": "Lun: 11.00-13.00. Ven: 11.00-13.00.",
+            "tel": ""
+        },
+        "med0404": {
+            "address": "Via Toscana, 121/7, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.4562042",
+            "lg": "11.3689111",
+            "name": "INFUSINI ANTONIO ERNESTO",
+            "opening": "Lun: 09.00-10.00. Mar: 16.00-19.00. Mer: 16.00-19.00. Gio: 16.00-19.00. Ven: 09.00-10.00.",
+            "tel": ""
+        },
+        "med0418": {
+            "address": "Via Dell'indipendenza, 56, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.5004318",
+            "lg": "11.3441098",
+            "name": "LAFRATTA VINCENZO",
+            "opening": "Lun: 09.30-11.30. Mar: 15.30-18.30. Mer: 15.30-19.00. Gio: 09.30-12.00. Ven: 09.30-11.30.",
+            "tel": ""
+        },
+        "med0419": {
+            "address": "Via Di Corticella, 41, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.5153589",
+            "lg": "11.3478591",
+            "name": "LALLI ANTONIO LUIGI",
+            "opening": "Lun: 09.00-12.30. Mar: 15.00-18.30. Mer: 15.00-18.30. Gio: 09.00-12.30. Ven: 09.00-12.30.",
+            "tel": ""
+        },
+        "med0424": {
+            "address": "Via Bellaria, 38, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.4760471",
+            "lg": "11.3879218",
+            "name": "LANZONI IVANO",
+            "opening": "Lun: 17.00-18.30. Mar: 17.00-18.30. Mer: 09.30-11.00. Gio: 10.00-12.00. Ven: 17.00-18.30.",
+            "tel": ""
+        },
+        "med0433": {
+            "address": "Via Arno, 6, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.4763041",
+            "lg": "11.3900097",
+            "name": "LELLI OMAR",
+            "opening": "Lun: 18.00-20.00. Mar: 10.30-13.00. Mer: 09.30-12.00. Gio: 18.00-20.00. Ven: 10.30-13.00.",
+            "tel": ""
+        },
+        "med0434": {
+            "address": "Via Emilia Levante, 146/2A, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.4800303",
+            "lg": "11.3838284",
+            "name": "LELLI OMAR",
+            "opening": "Lun: 11.30-13.00. Mar: 18.00-19.30. Mer: 12.00-13.00. Gio: 16.30-18.00. Ven: 18.00-19.30.",
+            "tel": ""
+        },
+        "med0439": {
+            "address": "Via Sabotino, 30, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.4968848",
+            "lg": "11.3193577",
+            "name": "LENZI DONATELLA",
+            "opening": "Lun: 09.00-12.30. Mar: 15.00-19.00. Mer: 15.00-19.00. Gio: 15.00-19.00. Ven: 09.00-12.30.",
+            "tel": ""
+        },
+        "med0443": {
+            "address": "Via Augusto Romagnoli, 2, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.4745585",
+            "lg": "11.3683969",
+            "name": "LEONELLI GIULIANO",
+            "opening": "Lun: 08.30-11.30. Mar: 08.30-12.00. Mer: 08.30-11.30. Gio: 08.30-12.00. Ven: 08.30-11.30.",
+            "tel": ""
+        },
+        "med0447": {
+            "address": "Via Zanardi, 7, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.5037023",
+            "lg": "11.3325134",
+            "name": "LINSALATA ISABELLA",
+            "opening": "Lun: 11.30-12.30. Mar: 09.30-11.00. Mer: 16.30-18.30. Gio: 09.15-10.15. Ven: 09.30-11.00.",
+            "tel": ""
+        },
+        "med0448": {
+            "address": "Via Guglielmo Marconi, 51, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.5001555",
+            "lg": "11.3390338",
+            "name": "LIPPARINI STEFANO",
+            "opening": "Lun: 15.00-19.00. Mar: 15.00-19.00. Mer: 15.00-19.00. Gio: 15.00-19.00. Ven: 15.00-19.00.",
+            "tel": ""
+        },
+        "med0449": {
+            "address": "Via Ferrarese, 6, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.5104995",
+            "lg": "11.3477467",
+            "name": "LIVANI MARIA FRANCESCA",
+            "opening": "Lun: 17.00-20.00. Mar: 09.30-12.30. Mer: 17.00-20.00. Gio: 10.00-12.30. Ven: 10.00-12.30.",
+            "tel": ""
+        },
+        "med0450": {
+            "address": "Via Degli Orti, 62, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.4759837",
+            "lg": "11.3773126",
+            "name": "LOLLI GRAZIANO",
+            "opening": "Lun: 16.00-19.00. Mar: 09.00-12.00. Mer: 16.00-19.00. Gio: 09.00-12.00. Ven: 09.00-12.00.",
+            "tel": ""
+        },
+        "med0453": {
+            "address": "Via Frassinago, 4, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.4934986",
+            "lg": "11.3328477",
+            "name": "LUSVARDI ANDREA",
+            "opening": "Lun: 14.00-18.00. Mar: 14.00-18.00. Mer: 14.00-18.00. Gio: 14.00-18.00. Ven: 14.00-18.00.",
+            "tel": ""
+        },
+        "med0454": {
+            "address": "Via Frassinago, 4, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.4934986",
+            "lg": "11.3328477",
+            "name": "LUSVARDI ANDREA",
+            "opening": "",
+            "tel": ""
+        },
+        "med0455": {
+            "address": "Via Cesare Boldrini, 16, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.504639",
+            "lg": "11.3394612",
+            "name": "MACCAFERRI MARCO",
+            "opening": "Mar: 11.30-12.30. Ven: 11.30-12.30.",
+            "tel": ""
+        },
+        "med0456": {
+            "address": "Via Saragozza, 221/A, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.4900177",
+            "lg": "11.312983",
+            "name": "MACCAFERRI MARCO",
+            "opening": "Lun: 15.00-18.30. Mar: 15.00-18.30. Mer: 15.00-18.30. Gio: 15.00-18.30. Ven: 14.30-18.30.",
+            "tel": ""
+        },
+        "med0459": {
+            "address": "Piazza Clodoveo Bonazzi, 2, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.4964047",
+            "lg": "11.2930752",
+            "name": "MACCARI SANDRA",
+            "opening": "Mer: 08.30-11.30.",
+            "tel": ""
+        },
+        "med0460": {
+            "address": "Via Parigi, 15, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.4966685",
+            "lg": "11.3403831",
+            "name": "MACCARI SANDRA",
+            "opening": "Lun: 15.30-19.00. Mar: 08.30-12.00. Mer: 15.30-19.00. Gio: 15.30-19.00. Ven: 08.30-12.00.",
+            "tel": ""
+        },
+        "med0463": {
+            "address": "Via Genuzio Bentini, 24/C, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.5467663",
+            "lg": "11.3564304",
+            "name": "MAGAGNI PAOLO",
+            "opening": "Lun: 15.00-19.00. Mar: 10.00-13.00. Mer: 16.00-19.00. Gio: 16.00-19.00. Ven: 15.00-19.00.",
+            "tel": ""
+        },
+        "med0465": {
+            "address": "Via Carlo Cattaneo, 7, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.5205481",
+            "lg": "11.2754831",
+            "name": "MAJONCHI ROBERTO",
+            "opening": "Lun: 15.00-17.00. Mar: 17.00-19.00. Mer: 15.00-17.00. Gio: 17.00-19.00. Ven: 15.00-17.00.",
+            "tel": ""
+        },
+        "med0468": {
+            "address": "Via D. Calvart, 3/A, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.5158878",
+            "lg": "11.3472068",
+            "name": "MALAVOLTI LUCA",
+            "opening": "Lun: 15.00-18.00. Mar: 09.30-12.30. Mer: 15.00-18.00. Gio: 15.00-18.00. Ven: 09.30-12.30.",
+            "tel": ""
+        },
+        "med0482": {
+            "address": "Via Emilia Levante, 146/2, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.4800303",
+            "lg": "11.3838284",
+            "name": "MANGANARO DOMENICO",
+            "opening": "Lun: 09.00-11.00. Mer: 17.00-18.30. Gio: 11.00-12.00. Ven: 11.00-12.00.",
+            "tel": ""
+        },
+        "med0483": {
+            "address": "Via Tommaso Salvini, 8, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.5042689",
+            "lg": "11.3655201",
+            "name": "MANGANARO DOMENICO",
+            "opening": "Lun: 18.30-20.00. Mar: 14.30-16.30. Mer: 14.30-16.30. Gio: 14.30-16.30. Ven: 09.00-10.45.",
+            "tel": ""
+        },
+        "med0484": {
+            "address": "Via Sardegna, 1, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.4765275",
+            "lg": "11.3832535",
+            "name": "MANGANARO GIOVANNI",
+            "opening": "Lun: 16.30-19.00. Mar: 09.30-11.30. Mer: 16.00-19.00. Gio: 09.30-11.30. Ven: 10.00-12.00.",
+            "tel": ""
+        },
+        "med0485": {
+            "address": "Via Adelaide Ristori, 11/E, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.5026667",
+            "lg": "11.3704678",
+            "name": "MANUZZI PATRIZIA",
+            "opening": "Lun: 15.30-17.30. Mar: 14.00-15.00. Mer: 10.45-13.00. Gio: 10.45-13.00. Ven: 14.00-15.00.",
+            "tel": ""
+        },
+        "med0486": {
+            "address": "Via Cesare Battisti, 29, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.4928876",
+            "lg": "11.3382094",
+            "name": "MAODDI CATERINA",
+            "opening": "Lun: 15.00-16.00. Mar: 15.00-16.00. Mer: 09.00-10.00. Gio: 09.00-10.00. Ven: 09.00-10.00.",
+            "tel": ""
+        },
+        "med0487": {
+            "address": "Via Augusto Murri, 131, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.4774437",
+            "lg": "11.3660881",
+            "name": "MARANDO GRAZIA MARIA",
+            "opening": "",
+            "tel": ""
+        },
+        "med0488": {
+            "address": "Via Emilia Ponente, 26, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.5045354",
+            "lg": "11.3123611",
+            "name": "MARCHESINI FABIO",
+            "opening": "Lun: 11.30-13.00. Mar: 17.00-19.00. Gio: 17.00-19.00.",
+            "tel": ""
+        },
+        "med0489": {
+            "address": "Via Lemonia, 45/e, 45/E, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.506869",
+            "lg": "11.2985417",
+            "name": "MARCHESINI FABIO",
+            "opening": "Lun: 17.00-19.30. Mar: 11.00-13.00. Mer: 17.00-19.30. Gio: 12.00-13.30. Ven: 17.00-19.30.",
+            "tel": ""
+        },
+        "med0492": {
+            "address": "Via Degli Orti, 62, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.4759837",
+            "lg": "11.3773126",
+            "name": "MARINO' VINCENZO",
+            "opening": "Lun: 15.30-19.30. Mar: 15.30-20.00. Mer: 08.00-12.00. Gio: 15.30-20.00. Ven: 08.00-12.00.",
+            "tel": ""
+        },
+        "med0493": {
+            "address": "Piazza Grigoris Lambrakis, 1, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.4765931",
+            "lg": "11.3966894",
+            "name": "MARTELLA MARIA LUCIA",
+            "opening": "Lun: 15.30-17.30. Mar: 17.30-19.00. Mer: 15.30-19.00. Gio: 17.30-19.00. Ven: 17.30-19.00.",
+            "tel": ""
+        },
+        "med0494": {
+            "address": "Via Lemonia, 45/e, 45/E, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.506869",
+            "lg": "11.2985417",
+            "name": "MARTELLI DANIELA",
+            "opening": "Lun: 16.30-19.00. Mar: 10.00-12.30. Mer: 16.30-19.00. Gio: 10.00-12.30. Ven: 10.00-12.30.",
+            "tel": ""
+        },
+        "med0497": {
+            "address": "Via Guglielmo Oberdan, 10, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.4952928",
+            "lg": "11.3455709",
+            "name": "MARZO CARLA",
+            "opening": "Lun: 09.30-11.00. Mar: 15.30-17.00. Mer: 17.30-19.00. Gio: 09.30-11.00. Ven: 11.00-13.00.",
+            "tel": ""
+        },
+        "med0498": {
+            "address": "Via Tullio Golfarelli, 6, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.4993258",
+            "lg": "11.3985651",
+            "name": "MARZO CARLA",
+            "opening": "Lun: 16.00-19.00. Mer: 09.00-11.00. Ven: 09.00-10.30.",
+            "tel": ""
+        },
+        "med0499": {
+            "address": "Via Emilia Ponente, 14, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.5037101",
+            "lg": "11.3142804",
+            "name": "MASCAGNI GIUSEPPE",
+            "opening": "Lun: 17.00-19.00. Mar: 09.30-11.00. Mer: 17.00-19.00. Gio: 09.30-11.00. Ven: 17.00-19.00.",
+            "tel": ""
+        },
+        "med0500": {
+            "address": "Via Pasubio, 92/D, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.4977864",
+            "lg": "11.3203965",
+            "name": "MASCAGNI GIUSEPPE",
+            "opening": "Lun: 08.30-10.00. Mer: 08.30-10.00. Ven: 08.30-10.00.",
+            "tel": ""
+        },
+        "med0503": {
+            "address": "Via Don Minzoni, 7, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.5025474",
+            "lg": "11.3381692",
+            "name": "MASCIA FILOMENA",
+            "opening": "Lun: 08.15-11.00. Mar: 08.15-11.00. Mer: 18.00-19.00. Gio: 16.00-18.00. Ven: 18.00-19.00.",
+            "tel": ""
+        },
+        "med0504": {
+            "address": "Via Montefiorino, 2, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.495024",
+            "lg": "11.3144055",
+            "name": "MASCIA FILOMENA",
+            "opening": "Lun: 16.00-18.00. Mer: 08.15-11.00. Ven: 10.00-11.30.",
+            "tel": ""
+        },
+        "med0510": {
+            "address": "Via Cesare Battisti, 5, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.4949384",
+            "lg": "11.338768",
+            "name": "MASOTTI MASSIMO",
+            "opening": "Lun: 11.00-14.00. Mar: 16.00-19.00. Mer: 16.00-18.00. Gio: 16.00-19.00. Ven: 16.00-18.00.",
+            "tel": ""
+        },
+        "med0511": {
+            "address": "Via Marco Emilio Lepido, 45/c, 45/C, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.5173505",
+            "lg": "11.2757973",
+            "name": "MASOTTI MASSIMO",
+            "opening": "Lun: 09.00-10.00. Mar: 09.00-10.00. Ven: 09.00-10.00.",
+            "tel": ""
+        },
+        "med0515": {
+            "address": "Via Ghirardini, 40, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.4664298",
+            "lg": "11.3730757",
+            "name": "MATERA GIANNI",
+            "opening": "Lun: 14.30-19.30. Mar: 09.30-12.30. Mer: 09.30-12.30. Gio: 14.30-19.30. Ven: 14.30-18.00.",
+            "tel": ""
+        },
+        "med0516": {
+            "address": "Via Salvador Allende, 14, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.4845091",
+            "lg": "11.386934",
+            "name": "MATRA' ANNUNZIO",
+            "opening": "Lun: 10.00-13.00. Mar: 10.00-13.00. Mer: 16.00-19.00. Gio: 16.00-19.30. Ven: 10.00-13.00.",
+            "tel": ""
+        },
+        "med0522": {
+            "address": "Piazza Aldo Capitini, 10/A-B, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.4953139",
+            "lg": "11.2928214",
+            "name": "MAZZANTI PATRIZIA",
+            "opening": "Lun: 16.00-19.00. Mar: 11.00-14.00. Mer: 11.00-14.00. Gio: 16.00-19.00. Ven: 11.00-14.00.",
+            "tel": ""
+        },
+        "med0523": {
+            "address": "Via Bellaria, 38, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.4760471",
+            "lg": "11.3879218",
+            "name": "MAZZETTI GAITO PIERO",
+            "opening": "Lun: 08.00-12.30. Mar: 15.00-18.00. Mer: 08.00-10.30. Gio: 08.00-12.30. Ven: 08.00-10.30.",
+            "tel": ""
+        },
+        "med0524": {
+            "address": "Via Garibaldi, 1, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.4895975",
+            "lg": "11.3433441",
+            "name": "MAZZETTI GAITO PIERO",
+            "opening": "Lun: 15.30-17.30. Mar: 08.00-10.30. Gio: 15.30-17.30.",
+            "tel": ""
+        },
+        "med0526": {
+            "address": "Via Pasubio, 14, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.4977308",
+            "lg": "11.3199521",
+            "name": "MAZZONI GIAMPIERO",
+            "opening": "Lun: 11.00-13.00. Mar: 15.00-18.30. Mer: 08.30-10.30. Gio: 15.00-18.30. Ven: 15.00-18.30.",
+            "tel": ""
+        },
+        "med0527": {
+            "address": "Via Pasubio, 14, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.4977308",
+            "lg": "11.3199521",
+            "name": "MAZZONI GIANLUIGI",
+            "opening": "Lun: 15.00-19.00. Mar: 15.00-18.00. Mer: 15.00-19.00. Gio: 15.00-18.00. Ven: 15.00-18.00.",
+            "tel": ""
+        },
+        "med0528": {
+            "address": "Via Saragozza, 71, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.4904242",
+            "lg": "11.3310571",
+            "name": "MAZZONI GIANLUIGI",
+            "opening": "Lun: 10.15-11.00. Mar: 10.15-11.00. Gio: 10.15-11.00. Ven: 10.15-11.00.",
+            "tel": ""
+        },
+        "med0533": {
+            "address": "Via Ferrarese, 70/B, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.5169344",
+            "lg": "11.3549515",
+            "name": "MERLO DARIO",
+            "opening": "Lun: 15.30-17.00. Mar: 09.30-11.00. Mer: 15.30-17.00. Gio: 09.00-10.30. Ven: 15.00-16.30.",
+            "tel": ""
+        },
+        "med0534": {
+            "address": "Via Marco Emilio Lepido, 177, 177, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.5198759",
+            "lg": "11.2683192",
+            "name": "MINGHELLI MARIA CRISTINA",
+            "opening": "Lun: 15.00-19.00. Mar: 09.00-13.00. Mer: 09.00-13.00. Gio: 09.00-13.00. Ven: 15.00-19.00.",
+            "tel": ""
+        },
+        "med0537": {
+            "address": "Via Ferrarese, 158, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.5286045",
+            "lg": "11.3662659",
+            "name": "MOHAMED ALAMIN MUNIRA",
+            "opening": "Lun: 17.00-19.00. Mar: 13.30-14.30. Mer: 17.30-19.30. Gio: 10.30-12.30. Ven: 17.00-19.00.",
+            "tel": ""
+        },
+        "med0538": {
+            "address": "Via San Vitale, 58, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.494205",
+            "lg": "11.3523217",
+            "name": "MOHAMED ALAMIN MUNIRA",
+            "opening": "Mar: 17.00-18.00.",
+            "tel": ""
+        },
+        "med0544": {
+            "address": "Via Augusto Righi, 6, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.4990533",
+            "lg": "11.3445066",
+            "name": "MONORCHIO SAVERIO",
+            "opening": "Lun: 18.00-19.00. Mar: 09.00-11.00. Mer: 08.00-09.00. Gio: 12.00-13.00. Ven: 17.00-19.00.",
+            "tel": ""
+        },
+        "med0545": {
+            "address": "Via Casarini, 3, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.5038535",
+            "lg": "11.3318234",
+            "name": "MONORCHIO SAVERIO",
+            "opening": "Lun: 09.00-11.00. Mar: 16.00-19.00. Mer: 16.00-19.00. Gio: 09.00-11.00. Ven: 09.00-11.00.",
+            "tel": ""
+        },
+        "med0546": {
+            "address": "Via Parigi, 15, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.4966685",
+            "lg": "11.3403831",
+            "name": "MONORCHIO SAVERIO",
+            "opening": "Lun: 16.30-17.45. Mar: 11.30-12.30. Gio: 16.30-17.45. Ven: 11.30-12.30.",
+            "tel": ""
+        },
+        "med0553": {
+            "address": "Via Federico Beroaldo, 4/2, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.5184235",
+            "lg": "11.3944254",
+            "name": "MONTANARI MARIA TERESA",
+            "opening": "Lun: 08.30-11.30. Mar: 08.30-11.30. Mer: 15.00-18.00. Gio: 15.00-18.00. Ven: 08.30-11.30.",
+            "tel": ""
+        },
+        "med0558": {
+            "address": "Via Dante, 32/2, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.4875587",
+            "lg": "11.3594584",
+            "name": "MONTI DANTE",
+            "opening": "Lun: 15.00-19.00. Mar: 15.00-19.00. Mer: 09.00-11.00. Gio: 15.00-19.00. Ven: 09.00-11.00.",
+            "tel": ""
+        },
+        "med0563": {
+            "address": "Via Isabella Andreini, 4, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.5052441",
+            "lg": "11.372385",
+            "name": "MONTOSI PAOLO",
+            "opening": "Lun: 15.30-19.00. Mar: 15.30-19.00. Mer: 15.30-19.00. Gio: 15.30-19.00. Ven: 15.30-19.00.",
+            "tel": ""
+        },
+        "med0568": {
+            "address": "Via Giuseppe Massarenti, 254, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.493515",
+            "lg": "11.3745758",
+            "name": "MORINI EMIDIO",
+            "opening": "Lun: 08.45-10.45. Mar: 08.45-10.45. Mer: 08.45-10.45. Gio: 08.45-10.45. Ven: 08.45-10.45.",
+            "tel": ""
+        },
+        "med0569": {
+            "address": "Via Marsili, 1, 1, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.4899449",
+            "lg": "11.3414286",
+            "name": "MORINI EMIDIO",
+            "opening": "Lun: 15.30-17.00. Mer: 15.30-17.00. Ven: 15.30-17.00.",
+            "tel": ""
+        },
+        "med0571": {
+            "address": "Via Parigi, 15, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.4966685",
+            "lg": "11.3403831",
+            "name": "MORUZZI GIAMPIERO",
+            "opening": "Lun: 14.00-19.00. Mar: 14.00-19.00. Mer: 14.00-19.00. Gio: 10.00-12.30. Ven: 09.30-12.30.",
+            "tel": ""
+        },
+        "med0572": {
+            "address": "Via Ferrarese, 70/A, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.5169344",
+            "lg": "11.3549515",
+            "name": "MOTTARAN CARLO",
+            "opening": "Lun: 09.30-12.30. Mar: 15.30-18.30. Mer: 09.30-12.30. Gio: 15.30-19.00. Ven: 09.30-12.30.",
+            "tel": ""
+        },
+        "med0573": {
+            "address": "Via G. Papini, 24/A, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.5342898",
+            "lg": "11.3535281",
+            "name": "MUSCONI MARINELLA",
+            "opening": "Lun: 15.00-18.00. Mer: 14.30-16.30.",
+            "tel": ""
+        },
+        "med0574": {
+            "address": "Via Genuzio Bentini, 24/C, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.5467663",
+            "lg": "11.3564304",
+            "name": "MUSCONI MARINELLA",
+            "opening": "Lun: 14.00-15.00. Mar: 14.00-15.00. Mer: 17.00-18.00. Gio: 14.30-15.30. Ven: 15.00-18.00.",
+            "tel": ""
+        },
+        "med0576": {
+            "address": "Via Zanardi, 6, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.5034779",
+            "lg": "11.3326071",
+            "name": "MUSTAFA ATTAIB",
+            "opening": "Lun: 08.30-12.30. Mar: 13.00-13.00. Mer: 08.30-12.30. Gio: 13.00-13.00. Ven: 08.30-12.30.",
+            "tel": ""
+        },
+        "med0577": {
+            "address": "Via Zanardi, 6, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.5034779",
+            "lg": "11.3326071",
+            "name": "MUSTAFA ATTAIB",
+            "opening": "",
+            "tel": ""
+        },
+        "med0580": {
+            "address": "Via Andrea Costa, 143, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.495016",
+            "lg": "11.314257",
+            "name": "NALDONI PAOLA",
+            "opening": "Lun: 14.00-16.00. Mar: 14.00-16.00. Mer: 14.00-16.00. Gio: 14.00-16.00. Ven: 14.00-16.00.",
+            "tel": ""
+        },
+        "med0581": {
+            "address": "Via Nani, 10, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.5185598",
+            "lg": "11.2782348",
+            "name": "NALDONI PAOLA",
+            "opening": "Lun: 17.00-19.00. Mar: 17.00-19.00. Mer: 08.00-11.00. Gio: 17.00-19.00. Ven: 17.00-19.00.",
+            "tel": ""
+        },
+        "med0591": {
+            "address": "Via Santo Stefano, 82, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.4876418",
+            "lg": "11.3526841",
+            "name": "NICOSIA SALVATORE",
+            "opening": "Lun: 09.30-10.30. Mer: 16.00-17.00.",
+            "tel": ""
+        },
+        "med0592": {
+            "address": "Via Sardegna, 1, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.4765275",
+            "lg": "11.3832535",
+            "name": "NICOSIA SALVATORE",
+            "opening": "Lun: 15.00-17.00. Mar: 13.00-15.00. Mer: 10.00-12.30. Gio: 10.00-12.30. Ven: 10.30-12.30.",
+            "tel": ""
+        },
+        "med0593": {
+            "address": "Via Nani, 10, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.5185598",
+            "lg": "11.2782348",
+            "name": "NIGRO GRAZIANO",
+            "opening": "Lun: 09.30-12.30. Mar: 15.30-19.00. Mer: 09.30-12.30. Gio: 15.30-19.00. Ven: 09.30-12.30.",
+            "tel": ""
+        },
+        "med0599": {
+            "address": "Piazza Dell'unita', 14, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.510982",
+            "lg": "11.3475111",
+            "name": "OGGIANU MASSIMO",
+            "opening": "Lun: 08.30-10.30. Mar: 17.00-19.30. Mer: 17.00-19.00. Gio: 14.30-16.30. Ven: 08.30-10.30.",
+            "tel": ""
+        },
+        "med0600": {
+            "address": "Via Saffi, 63, 63, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.5007892",
+            "lg": "11.3233594",
+            "name": "OGGIANU MASSIMO",
+            "opening": "Lun: 16.30-18.30. Mar: 09.00-11.00. Mer: 09.00-10.30. Gio: 17.00-19.00. Ven: 16.30-18.30.",
+            "tel": ""
+        },
+        "med0601": {
+            "address": "Piazza Giovanni Xxiii, 11, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.4943888",
+            "lg": "11.2845214",
+            "name": "OGNIBENE GIAN LUCA",
+            "opening": "Lun: 15.00-16.30. Mar: 10.30-12.00. Mer: 15.45-17.15. Gio: 13.00-14.00. Ven: 08.30-09.30.",
+            "tel": ""
+        },
+        "med0602": {
+            "address": "Via Mario Bastia, 18, 18, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.4916873",
+            "lg": "11.3158045",
+            "name": "OGNIBENE GIAN LUCA",
+            "opening": "Lun: 17.30-18.30. Mar: 15.30-17.00. Mer: 17.30-18.30. Gio: 10.00-11.30.",
+            "tel": ""
+        },
+        "med0603": {
+            "address": "Via Normandia, 14, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.5229428",
+            "lg": "11.264011",
+            "name": "OGNIBENE GIAN LUCA",
+            "opening": "Lun: 10.00-11.30. Mer: 10.00-11.30. Gio: 17.30-19.00. Ven: 10.00-11.30.",
+            "tel": ""
+        },
+        "med0605": {
+            "address": "Via Lemonia, 45/e, 45/E, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.506869",
+            "lg": "11.2985417",
+            "name": "ORSONI SONIA",
+            "opening": "Lun: 12.30-13.30. Mar: 18.00-19.00. Mer: 12.30-13.30. Gio: 17.30-18.30. Ven: 13.00-14.00.",
+            "tel": ""
+        },
+        "med0606": {
+            "address": "Via Mascarella, 62/A, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.5001493",
+            "lg": "11.3508271",
+            "name": "ORSONI SONIA",
+            "opening": "Lun: 15.00-16.30. Mar: 16.00-17.30. Mer: 15.00-16.30. Gio: 15.00-16.30.",
+            "tel": ""
+        },
+        "med0607": {
+            "address": "Via Mascarella, 62/A, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.5001493",
+            "lg": "11.3508271",
+            "name": "ORSONI SONIA",
+            "opening": "",
+            "tel": ""
+        },
+        "med0609": {
+            "address": "Via Federico Beroaldo, 4/2, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.5184235",
+            "lg": "11.3944254",
+            "name": "PAGANINI LUISA",
+            "opening": "Lun: 15.00-17.00. Mar: 09.00-11.00. Mer: 15.00-17.00. Gio: 09.00-11.00. Ven: 09.00-11.00.",
+            "tel": ""
+        },
+        "med0610": {
+            "address": "Via Aristotile Fioravanti, 28, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.5134802",
+            "lg": "11.3416622",
+            "name": "PAGGIOLA CRISTINA",
+            "opening": "Lun: 15.30-16.30. Mar: 09.00-10.00. Mer: 15.30-16.30. Gio: 09.00-10.00. Ven: 15.30-16.30.",
+            "tel": ""
+        },
+        "med0612": {
+            "address": "Via Rodolfo Audinot, 41, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.4918511",
+            "lg": "11.327201",
+            "name": "PALASCIANO MARIA",
+            "opening": "Lun: 09.00-12.30. Mar: 16.30-19.00. Mer: 16.30-19.00. Gio: 09.30-12.30. Ven: 09.30-12.30.",
+            "tel": ""
+        },
+        "med0613": {
+            "address": "Via Giuseppe Massarenti, 254, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.493515",
+            "lg": "11.3745758",
+            "name": "PALAZZI TRIVELLI ALBERTO",
+            "opening": "Lun: 09.30-11.00. Mar: 16.00-17.30. Mer: 16.00-17.30. Gio: 09.30-11.00. Ven: 09.30-11.00.",
+            "tel": ""
+        },
+        "med0614": {
+            "address": "Piazza Di Porta Mascarella, 7, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.5019064",
+            "lg": "11.3530198",
+            "name": "PALMIERI STEFANO",
+            "opening": "Mar: 10.00-11.00. Ven: 16.00-17.00.",
+            "tel": ""
+        },
+        "med0615": {
+            "address": "Via Giuseppe Massarenti, 223/5B, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.4930087",
+            "lg": "11.389727",
+            "name": "PALMIERI STEFANO",
+            "opening": "Lun: 10.00-12.00. Mar: 15.00-16.00. Mer: 16.30-18.30. Gio: 10.00-11.00. Ven: 10.00-12.00.",
+            "tel": ""
+        },
+        "med0616": {
+            "address": "Via San Gervasio, 2, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.4958381",
+            "lg": "11.3377495",
+            "name": "PALMIERI STEFANO",
+            "opening": "Mar: 17.00-18.00. Gio: 16.00-17.00.",
+            "tel": ""
+        },
+        "med0619": {
+            "address": "Via Marco Emilio Lepido, 151, 151, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.5187247",
+            "lg": "11.2718303",
+            "name": "PAOLO MARCELLO",
+            "opening": "Lun: 16.00-19.00. Mar: 16.00-19.00. Mer: 15.00-16.00. Gio: 16.00-19.00. Ven: 15.00-16.00.",
+            "tel": ""
+        },
+        "med0621": {
+            "address": "Via Della Battaglia, 25/F, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.4652256",
+            "lg": "11.3773199",
+            "name": "PARRINELLO TULLIO",
+            "opening": "Lun: 17.30-19.00. Mar: 15.30-17.00. Mer: 17.30-19.00. Gio: 15.30-17.00. Ven: 15.30-17.00.",
+            "tel": ""
+        },
+        "med0625": {
+            "address": "Via Floriano Ambrosini, 2, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.5004297",
+            "lg": "11.3252424",
+            "name": "PASI CLAUDIO",
+            "opening": "Lun: 16.30-18.30. Mar: 16.30-18.30. Mer: 16.30-18.30.",
+            "tel": ""
+        },
+        "med0626": {
+            "address": "Via Parigi, 15, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.4966685",
+            "lg": "11.3403831",
+            "name": "PASI CLAUDIO",
+            "opening": "Lun: 10.30-12.00. Mar: 10.30-12.00. Mer: 18.30-19.30. Ven: 15.00-19.00. Sab: 10.30-12.00.",
+            "tel": ""
+        },
+        "med0627": {
+            "address": "Via Lemonia, 45/e, 45/E, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.506869",
+            "lg": "11.2985417",
+            "name": "PASQUALONI PAOLO",
+            "opening": "Mar: 16.30-19.00. Gio: 16.30-19.00. Ven: 09.30-12.00.",
+            "tel": ""
+        },
+        "med0628": {
+            "address": "Via Nani, 10, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.5185598",
+            "lg": "11.2782348",
+            "name": "PASQUALONI PAOLO",
+            "opening": "Lun: 16.30-19.30. Mar: 09.00-12.00. Mer: 16.00-19.00. Gio: 10.30-13.00. Ven: 16.00-19.30.",
+            "tel": ""
+        },
+        "med0631": {
+            "address": "Via Carlo Alberto Pizzardi, 39, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.4897961",
+            "lg": "11.3687648",
+            "name": "PATERNICO' ANNA",
+            "opening": "Lun: 08.30-11.30. Mar: 08.30-11.30. Mer: 15.30-19.00. Gio: 15.30-19.00. Ven: 08.30-11.30.",
+            "tel": ""
+        },
+        "med0632": {
+            "address": "Via Ferrarese, 67/2, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.5158341",
+            "lg": "11.3541466",
+            "name": "PATIERNO MARCO",
+            "opening": "Lun: 10.00-12.00. Mar: 16.00-19.00. Mer: 16.00-19.00. Gio: 16.00-19.00. Ven: 10.00-12.00.",
+            "tel": ""
+        },
+        "med0638": {
+            "address": "Via Adelaide Borghi Mamo, 8, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.4772",
+            "lg": "11.3608434",
+            "name": "PELLECCHIA GABRIELE",
+            "opening": "Lun: 15.00-16.30. Mer: 18.00-19.00. Gio: 15.00-16.30.",
+            "tel": ""
+        },
+        "med0639": {
+            "address": "Via Marsili, 1, 1, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.4899449",
+            "lg": "11.3414286",
+            "name": "PELLECCHIA GABRIELE",
+            "opening": "Lun: 09.30-11.30. Mar: 10.00-11.30. Gio: 09.30-11.30. Ven: 10.00-11.30.",
+            "tel": ""
+        },
+        "med0640": {
+            "address": "Via Parigi, 15, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.4966685",
+            "lg": "11.3403831",
+            "name": "PELLECCHIA GABRIELE",
+            "opening": "Lun: 17.30-18.30. Mar: 08.30-09.30. Mer: 15.30-17.00. Gio: 18.00-19.30. Ven: 08.30-09.30.",
+            "tel": ""
+        },
+        "med0642": {
+            "address": "Via Bellaria, 38, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.4760471",
+            "lg": "11.3879218",
+            "name": "PERINI AURELIA",
+            "opening": "",
+            "tel": ""
+        },
+        "med0645": {
+            "address": "Via Degli Orti, 62, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.4759837",
+            "lg": "11.3773126",
+            "name": "PETRIGNANI ALBERTO",
+            "opening": "Lun: 15.30-19.30. Mar: 15.30-19.30. Mer: 08.00-10.30. Gio: 15.30-19.30. Ven: 09.00-10.00.",
+            "tel": ""
+        },
+        "med0647": {
+            "address": "Via Gatti, 4, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.5433244",
+            "lg": "11.3561089",
+            "name": "PEZZOLI ANDREA",
+            "opening": "Lun: 09.30-12.30. Mar: 17.00-20.00. Mer: 09.30-12.30. Gio: 17.00-20.00. Ven: 09.30-12.30.",
+            "tel": ""
+        },
+        "med0648": {
+            "address": "Via Genuzio Bentini, 1, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.5419089",
+            "lg": "11.3562393",
+            "name": "PEZZOLI ANDREA",
+            "opening": "Lun: 17.00-20.00. Mer: 17.00-20.00. Ven: 17.00-20.00.",
+            "tel": ""
+        },
+        "med0655": {
+            "address": "Via Marco Polo, 22/b, 22/B, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.5187958",
+            "lg": "11.3287469",
+            "name": "PIERRO ANTONELLA",
+            "opening": "Mar: 16.45-19.15.",
+            "tel": ""
+        },
+        "med0656": {
+            "address": "Via Procaccini, 19/D, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.5136196",
+            "lg": "11.3430105",
+            "name": "PIERRO ANTONELLA",
+            "opening": "Lun: 08.45-12.15. Mar: 14.30-15.30. Mer: 08.45-12.15. Gio: 16.45-19.15. Ven: 08.45-12.15.",
+            "tel": ""
+        },
+        "med0659": {
+            "address": "Via Massenzio Masia, 21/C, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.4972881",
+            "lg": "11.3645038",
+            "name": "PINI MARTINO",
+            "opening": "Lun: 08.30-10.30. Mar: 15.00-18.00. Mer: 08.30-10.30. Gio: 15.00-18.00. Ven: 08.30-10.30.",
+            "tel": ""
+        },
+        "med0661": {
+            "address": "Via Mazzini, 14, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.4896998",
+            "lg": "11.3588727",
+            "name": "PIOLA LIA",
+            "opening": "Lun: 16.30-19.00. Mar: 09.30-11.30. Mer: 16.30-19.00. Gio: 16.30-19.00. Ven: 09.30-11.30.",
+            "tel": ""
+        },
+        "med0662": {
+            "address": "Via Ugo Bassi, 1, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.4949951",
+            "lg": "11.3420289",
+            "name": "PIOLA LIA",
+            "opening": "Gio: 10.00-12.00.",
+            "tel": ""
+        },
+        "med0663": {
+            "address": "Via Giacomo Matteotti, 29, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.5083818",
+            "lg": "11.3465583",
+            "name": "PIROMALLO SANDRO",
+            "opening": "Lun: 10.00-12.30. Mar: 11.00-13.00. Mer: 18.00-20.00. Gio: 16.30-18.00. Ven: 08.30-10.00.",
+            "tel": ""
+        },
+        "med0664": {
+            "address": "Via Isabella Andreini, 32, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.5008484",
+            "lg": "11.3736774",
+            "name": "PIROMALLO SANDRO",
+            "opening": "Lun: 17.00-20.00. Mar: 08.30-10.00. Mer: 15.00-17.00. Gio: 14.00-16.00. Ven: 11.00-13.00.",
+            "tel": ""
+        },
+        "med0667": {
+            "address": "Via Del Pratello, 22/A, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.4955978",
+            "lg": "11.3344059",
+            "name": "PIZZI MIRELLA",
+            "opening": "Lun: 09.30-12.30. Mar: 16.30-18.30. Mer: 09.30-12.30. Gio: 16.30-18.30. Ven: 09.30-12.30.",
+            "tel": ""
+        },
+        "med0674": {
+            "address": "Via Del Meloncello, 2, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.4900212",
+            "lg": "11.3112418",
+            "name": "PRETTO PAOLA",
+            "opening": "Lun: 10.00-12.00. Mar: 16.30-18.30. Mer: 10.00-12.00. Gio: 15.30-17.00. Ven: 10.00-12.00.",
+            "tel": ""
+        },
+        "med0675": {
+            "address": "Via F. Magni, 4, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.5199204",
+            "lg": "11.2724178",
+            "name": "PRETTO PAOLA",
+            "opening": "Lun: 17.00-19.00. Mer: 17.00-19.00. Gio: 10.00-12.00.",
+            "tel": ""
+        },
+        "med0676": {
+            "address": "Via Lemonia, 45/e, 45/E, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.506869",
+            "lg": "11.2985417",
+            "name": "PROCOPIO PIETRO",
+            "opening": "Lun: 09.30-11.30. Mar: 16.00-19.00. Mer: 09.30-11.30. Gio: 16.00-19.00. Ven: 16.00-19.00.",
+            "tel": ""
+        },
+        "med0677": {
+            "address": "Via Caduti Di Casteldebole, 66, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.4991623",
+            "lg": "11.2764434",
+            "name": "PUGNALIN MASSIMO",
+            "opening": "Lun: 08.30-11.30. Mar: 08.30-11.30. Mer: 16.00-19.00. Gio: 08.00-11.00. Ven: 16.00-19.00.",
+            "tel": ""
+        },
+        "med0678": {
+            "address": "Via Guglielmo Oberdan, 10, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.4952928",
+            "lg": "11.3455709",
+            "name": "PUGNALIN MASSIMO",
+            "opening": "Lun: 17.00-19.00. Mer: 09.00-10.00. Gio: 17.00-19.00.",
+            "tel": ""
+        },
+        "med0679": {
+            "address": "Via Guglielmo Oberdan, 10, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.4952928",
+            "lg": "11.3455709",
+            "name": "PUGNALIN MASSIMO",
+            "opening": "",
+            "tel": ""
+        },
+        "med0680": {
+            "address": "Via Dell'indipendenza, 56, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.5004318",
+            "lg": "11.3441098",
+            "name": "QUADRELLI STEFANO",
+            "opening": "Lun: 08.30-12.00. Mar: 15.30-19.00. Mer: 08.30-12.00. Gio: 15.30-19.00. Ven: 08.30-12.00.",
+            "tel": ""
+        },
+        "med0682": {
+            "address": "Via Francesco Barbieri, 129/F, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.5170249",
+            "lg": "11.3380202",
+            "name": "QUARANTA FRANCESCO",
+            "opening": "Lun: 14.00-15.30. Mar: 14.00-15.00. Gio: 12.30-13.30. Ven: 13.45-15.15.",
+            "tel": ""
+        },
+        "med0683": {
+            "address": "Via Zampieri, 21/3C, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.5094039",
+            "lg": "11.3430322",
+            "name": "QUARANTA FRANCESCO",
+            "opening": "Lun: 08.30-12.00. Mar: 16.30-19.00. Mer: 15.30-19.00. Gio: 08.30-12.00. Ven: 16.30-19.00.",
+            "tel": ""
+        },
+        "med0686": {
+            "address": "Via Giuseppe Bentivogli, 99/B, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.4971205",
+            "lg": "11.3643233",
+            "name": "RAGGIOTTO GIANNINA",
+            "opening": "Lun: 09.45-11.00. Mar: 15.30-18.00. Mer: 08.30-11.00. Gio: 15.30-18.00. Ven: 09.45-11.00.",
+            "tel": ""
+        },
+        "med0687": {
+            "address": "Via Irnerio, 10, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.500508",
+            "lg": "11.3480077",
+            "name": "RAIMONDI FABIO",
+            "opening": "Lun: 09.00-11.30. Mar: 15.30-18.00. Mer: 15.30-18.00. Gio: 15.30-18.00. Ven: 09.00-11.30.",
+            "tel": ""
+        },
+        "med0688": {
+            "address": "Via Genuzio Bentini, 1, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.5419089",
+            "lg": "11.3562393",
+            "name": "RAMBALDI FRANCESCA",
+            "opening": "Lun: 16.30-19.00. Mar: 11.00-13.00. Mer: 16.30-19.00. Gio: 11.00-13.00. Ven: 16.30-18.30.",
+            "tel": ""
+        },
+        "med0689": {
+            "address": "Via Grazia Deledda, 24, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.510109",
+            "lg": "11.3961641",
+            "name": "RAMBALDI FRANCESCA",
+            "opening": "Lun: 10.00-12.00. Mar: 17.30-19.00. Mer: 10.00-12.00. Gio: 17.30-19.00. Ven: 10.00-12.00.",
+            "tel": ""
+        },
+        "med0691": {
+            "address": "Via Barberia, 2, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.4914792",
+            "lg": "11.3395688",
+            "name": "RAMINI GIOVANNI",
+            "opening": "Lun: 15.30-17.00. Mar: 11.30-13.30. Mer: 15.30-17.00. Gio: 11.30-13.30. Ven: 11.30-13.30.",
+            "tel": ""
+        },
+        "med0692": {
+            "address": "Via San Vitale, 58, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.494205",
+            "lg": "11.3523217",
+            "name": "RAMINI GIOVANNI",
+            "opening": "Lun: 09.00-11.00. Mar: 09.00-11.00. Mer: 09.00-11.00. Gio: 09.00-11.00. Ven: 09.00-11.00.",
+            "tel": ""
+        },
+        "med0694": {
+            "address": "Via Piana, 18/D, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.5065524",
+            "lg": "11.3672797",
+            "name": "RAPPOCCIOLO ANTONINO",
+            "opening": "Lun: 17.00-19.00. Mar: 08.30-10.30. Mer: 17.00-19.00. Gio: 09.00-12.00. Ven: 17.00-19.00.",
+            "tel": ""
+        },
+        "med0695": {
+            "address": "Via Ugo Bassi, 11, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.4955164",
+            "lg": "11.3397476",
+            "name": "RAPPOCCIOLO ANTONINO",
+            "opening": "Lun: 08.30-10.30. Mer: 08.30-10.30. Ven: 09.15-10.30.",
+            "tel": ""
+        },
+        "med0700": {
+            "address": "Via Giuseppe Mezzofanti, 38, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.4819076",
+            "lg": "11.3693897",
+            "name": "RIGHI IRENE",
+            "opening": "Lun: 15.00-19.00. Mar: 08.30-11.30. Mer: 08.30-11.30. Gio: 14.30-18.30. Ven: 15.00-19.00.",
+            "tel": ""
+        },
+        "med0703": {
+            "address": "Via Giuseppe Massarenti, 254, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.493515",
+            "lg": "11.3745758",
+            "name": "RINALDI ANGELA MARIA",
+            "opening": "Lun: 11.00-12.30. Mar: 10.30-12.30. Mer: 10.30-12.30. Gio: 11.00-12.30. Ven: 11.00-12.30.",
+            "tel": ""
+        },
+        "med0704": {
+            "address": "Via Saragozza, 71, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.4904242",
+            "lg": "11.3310571",
+            "name": "RINALDI MARCO",
+            "opening": "Lun: 14.30-16.30. Mar: 12.00-13.00. Mer: 14.30-16.30. Gio: 12.00-13.00. Ven: 14.30-16.30.",
+            "tel": ""
+        },
+        "med0708": {
+            "address": "Via Pietralata, 32, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.4960407",
+            "lg": "11.3312922",
+            "name": "ROCCHI PIERGIOVANNI",
+            "opening": "Lun: 15.30-18.30. Mar: 08.00-09.00. Mer: 09.00-12.00. Gio: 15.30-18.30. Ven: 08.00-12.00.",
+            "tel": ""
+        },
+        "med0710": {
+            "address": "Via G. Cesare Croce, 2/4/B, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.4942708",
+            "lg": "11.3565639",
+            "name": "ROMAGNOLI DANIELE",
+            "opening": "Lun: 09.15-10.15. Mar: 15.00-19.00. Mer: 09.00-11.00. Gio: 15.00-19.00. Ven: 09.00-10.00.",
+            "tel": ""
+        },
+        "med0711": {
+            "address": "Via Giuseppe Massarenti, 179, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.4933827",
+            "lg": "11.3832155",
+            "name": "ROMAGNOLI DANIELE",
+            "opening": "Lun: 15.00-19.00. Mer: 15.00-17.00. Ven: 15.00-19.00.",
+            "tel": ""
+        },
+        "med0713": {
+            "address": "Via Di Corticella, 216/3, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.5432063",
+            "lg": "11.3553594",
+            "name": "ROMAGNOLI GIANCARLO",
+            "opening": "Lun: 18.00-19.30. Mar: 09.00-11.00. Mer: 18.00-19.30. Gio: 18.00-19.30. Ven: 09.00-11.00.",
+            "tel": ""
+        },
+        "med0714": {
+            "address": "Via Guglielmo Oberdan, 10, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.4952928",
+            "lg": "11.3455709",
+            "name": "ROMAGNOLI GIANCARLO",
+            "opening": "Lun: 15.00-17.00. Mar: 15.00-17.00. Mer: 15.00-17.00. Ven: 15.00-17.00.",
+            "tel": ""
+        },
+        "med0716": {
+            "address": "Via Fossolo, 50/M, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.4869738",
+            "lg": "11.3780529",
+            "name": "ROMUALDI ANNA",
+            "opening": "Lun: 09.00-12.00. Mar: 16.00-19.00. Mer: 10.00-13.00. Gio: 16.00-19.00. Ven: 09.00-12.00.",
+            "tel": ""
+        },
+        "med0717": {
+            "address": "Via Alfredo Catalani, 1, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.4754698",
+            "lg": "11.3694344",
+            "name": "ROSATO FRANCESCO",
+            "opening": "Lun: 09.30-12.00. Mar: 16.00-18.30. Mer: 09.30-12.00. Gio: 16.00-18.30. Ven: 09.30-12.00.",
+            "tel": ""
+        },
+        "med0719": {
+            "address": "Via Giuseppe Massarenti, 179, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.4933827",
+            "lg": "11.3832155",
+            "name": "ROSSI CLAUDIA",
+            "opening": "Lun: 15.00-18.30. Mar: 09.30-12.00. Mer: 09.30-12.00. Gio: 16.30-19.00. Ven: 09.30-12.00.",
+            "tel": ""
+        },
+        "med0720": {
+            "address": "Via Pasubio, 14, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.4977308",
+            "lg": "11.3199521",
+            "name": "ROSSI ROSA MARIA",
+            "opening": "Lun: 14.00-18.30. Mar: 09.00-13.00. Mer: 14.00-18.30. Gio: 09.00-13.00. Ven: 11.30-15.30.",
+            "tel": ""
+        },
+        "med0723": {
+            "address": "Via Augusto Murri, 92, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.4787661",
+            "lg": "11.3652143",
+            "name": "ROVERSI TIZIANO",
+            "opening": "Lun: 10.00-12.30. Mar: 15.30-18.30. Mer: 10.00-12.30. Gio: 16.00-18.30. Ven: 10.00-12.30.",
+            "tel": ""
+        },
+        "med0724": {
+            "address": "Via F.de Giovanni, 18, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.5240304",
+            "lg": "11.3471295",
+            "name": "RUBINI STEFANO",
+            "opening": "Lun: 15.30-19.00. Mar: 15.30-19.00. Mer: 15.30-19.00. Gio: 08.30-10.45.",
+            "tel": ""
+        },
+        "med0725": {
+            "address": "Via Ferrarese, 70/A, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.5169344",
+            "lg": "11.3549515",
+            "name": "RUBINI STEFANO",
+            "opening": "Lun: 11.00-13.00. Mar: 11.00-13.00. Mer: 11.00-13.00. Gio: 14.30-16.00. Ven: 15.30-19.00.",
+            "tel": ""
+        },
+        "med0726": {
+            "address": "Via Ferrarese, 70/A, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.5169344",
+            "lg": "11.3549515",
+            "name": "RUBINI STEFANO",
+            "opening": "",
+            "tel": ""
+        },
+        "med0727": {
+            "address": "Via Saragozza, 103/B, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.4903806",
+            "lg": "11.3255278",
+            "name": "SALERA MARCELLO",
+            "opening": "Lun: 14.30-18.30. Mar: 09.30-12.30. Mer: 14.30-18.30. Gio: 14.30-18.30. Ven: 09.30-12.30.",
+            "tel": ""
+        },
+        "med0733": {
+            "address": "Via Adelaide Ristori, 11/E, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.5026667",
+            "lg": "11.3704678",
+            "name": "SAMORI' GIUSEPPE",
+            "opening": "Lun: 15.00-18.00. Mar: 08.45-12.00. Mer: 15.00-17.30. Gio: 15.00-18.00. Ven: 08.45-12.00.",
+            "tel": ""
+        },
+        "med0734": {
+            "address": "Via Delle Belle Arti, 1, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.497409",
+            "lg": "11.3476937",
+            "name": "SANTI MARZIO",
+            "opening": "Lun: 17.00-19.00. Mar: 15.30-17.00. Mer: 15.30-17.00. Gio: 15.30-17.00. Ven: 17.00-19.00.",
+            "tel": ""
+        },
+        "med0737": {
+            "address": "Via Pompeo Vizzani, 61, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.489016",
+            "lg": "11.3741901",
+            "name": "SANTORO GIUSEPPE",
+            "opening": "Lun: 17.30-19.30. Mar: 10.30-12.30. Mer: 10.30-12.30. Gio: 17.30-19.30. Ven: 09.00-11.30.",
+            "tel": ""
+        },
+        "med0741": {
+            "address": "Piazza Trento E Trieste, 1, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.4876288",
+            "lg": "11.362453",
+            "name": "SAVORANI GIANDOMENICO",
+            "opening": "Lun: 08.30-12.30. Mar: 15.00-19.00. Mer: 08.30-12.30. Gio: 15.00-19.00. Ven: 15.00-19.00.",
+            "tel": ""
+        },
+        "med0748": {
+            "address": "Via Zampieri, 21/3C, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.5094039",
+            "lg": "11.3430322",
+            "name": "SCHIRATO ROBERTO",
+            "opening": "Lun: 15.30-18.30. Mar: 09.00-12.00. Mer: 09.00-12.00. Gio: 15.30-18.30. Ven: 08.30-11.30.",
+            "tel": ""
+        },
+        "med0751": {
+            "address": "Via Fiorita, 2, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.4824617",
+            "lg": "11.3769628",
+            "name": "SERIO ALBERTO",
+            "opening": "Lun: 15.00-18.00. Mar: 15.00-18.00. Mer: 10.00-13.00. Gio: 15.00-18.00. Ven: 10.00-13.00.",
+            "tel": ""
+        },
+        "med0752": {
+            "address": "Via Massenzio Masia, 21, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.4972881",
+            "lg": "11.3645038",
+            "name": "SERRA COSIMO",
+            "opening": "Lun: 15.30-17.30. Mar: 09.00-10.30. Mer: 17.30-19.00. Gio: 09.00-10.30. Ven: 15.30-17.00.",
+            "tel": ""
+        },
+        "med0753": {
+            "address": "Via Sardegna, 1, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.4765275",
+            "lg": "11.3832535",
+            "name": "SERRA COSIMO",
+            "opening": "Lun: 09.30-11.30. Mar: 15.00-17.00. Mer: 09.30-11.30. Gio: 15.00-17.00. Ven: 08.30-11.00.",
+            "tel": ""
+        },
+        "med0756": {
+            "address": "Via Gastone Rossi, 13, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.4987709",
+            "lg": "11.3644943",
+            "name": "SIENA MATTEO",
+            "opening": "Lun: 16.00-18.30. Mar: 16.00-18.30. Mer: 09.00-11.00. Gio: 16.00-18.30. Ven: 09.00-11.00.",
+            "tel": ""
+        },
+        "med0757": {
+            "address": "Via Dell'indipendenza, 56, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.5004318",
+            "lg": "11.3441098",
+            "name": "SILLETTI ANTONELLA",
+            "opening": "Lun: 09.00-11.30. Mar: 09.00-11.30. Mer: 09.00-11.30. Gio: 15.30-18.00. Ven: 09.00-11.30.",
+            "tel": ""
+        },
+        "med0758": {
+            "address": "Via Mascarella, 62/7, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.5001493",
+            "lg": "11.3508271",
+            "name": "SIMONCINI ELISABETTA",
+            "opening": "Lun: 09.30-11.30. Mar: 11.30-12.30. Mer: 16.00-18.00. Gio: 16.00-18.00. Ven: 09.30-11.30.",
+            "tel": ""
+        },
+        "med0759": {
+            "address": "Via Tommaso Martelli, 23/10, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.4920398",
+            "lg": "11.3977184",
+            "name": "SIMONCINI ELISABETTA",
+            "opening": "Lun: 16.00-18.00. Mar: 09.15-11.15. Gio: 09.15-11.15. Ven: 16.00-18.00.",
+            "tel": ""
+        },
+        "med0763": {
+            "address": "Via Arno, 6, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.4763041",
+            "lg": "11.3900097",
+            "name": "SIRENI VALERIO",
+            "opening": "Lun: 11.00-12.30. Mer: 16.30-19.30. Sab: 10.00-12.30.",
+            "tel": ""
+        },
+        "med0764": {
+            "address": "Via Paolo Fabbri, 58/A, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.4965318",
+            "lg": "11.3625552",
+            "name": "SIRENI VALERIO",
+            "opening": "Lun: 16.00-18.00. Mar: 16.00-18.00. Mer: 10.00-12.30. Gio: 15.00-16.30. Ven: 15.00-16.30.",
+            "tel": ""
+        },
+        "med0765": {
+            "address": "Via Adelaide Borghi Mamo, 8/A, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.4772",
+            "lg": "11.3608434",
+            "name": "SOMAROLI MARINELLA",
+            "opening": "Lun: 15.00-18.00. Mar: 09.30-12.30. Mer: 15.00-18.00. Gio: 15.00-18.00. Ven: 09.30-12.30.",
+            "tel": ""
+        },
+        "med0766": {
+            "address": "Via Fossolo, 50, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.4869738",
+            "lg": "11.3780529",
+            "name": "SORGARELLO ENRICO",
+            "opening": "Lun: 16.00-18.30. Mar: 10.30-12.30. Mer: 16.00-18.30. Gio: 10.30-12.30. Ven: 16.00-18.30.",
+            "tel": ""
+        },
+        "med0767": {
+            "address": "Via Augusto Romagnoli, 2, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.4745585",
+            "lg": "11.3683969",
+            "name": "SORRENTINO MARIA ADELE",
+            "opening": "Lun: 16.30-19.00. Mer: 16.30-19.00. Ven: 11.00-13.00.",
+            "tel": ""
+        },
+        "med0768": {
+            "address": "Via Parigi, 15, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.4966685",
+            "lg": "11.3403831",
+            "name": "SORRENTINO MARIA ADELE",
+            "opening": "Lun: 09.30-11.00. Mar: 09.30-11.00. Mer: 14.30-15.30. Gio: 09.00-10.30. Ven: 16.00-17.00.",
+            "tel": ""
+        },
+        "med0771": {
+            "address": "Via Decumana, 3, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.5069886",
+            "lg": "11.3025132",
+            "name": "SPADAVECCHIA CORRADO EMILIO",
+            "opening": "Lun: 14.00-19.00. Mar: 14.00-19.00. Mer: 14.00-19.00. Gio: 14.00-19.00. Ven: 14.00-19.00.",
+            "tel": ""
+        },
+        "med0774": {
+            "address": "Via Barberia, 2, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.4914792",
+            "lg": "11.3395688",
+            "name": "SPEZIALI PIETRO",
+            "opening": "Lun: 17.30-19.30. Mar: 17.30-19.30. Mer: 11.30-13.00. Gio: 17.30-19.30. Ven: 17.30-19.30.",
+            "tel": ""
+        },
+        "med0775": {
+            "address": "Via Della Barca, 2, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.4926724",
+            "lg": "11.3010016",
+            "name": "SPEZIALI PIETRO",
+            "opening": "Lun: 08.00-11.00. Mar: 14.30-16.45. Mer: 08.00-11.30. Gio: 14.30-16.45. Ven: 14.30-16.45.",
+            "tel": ""
+        },
+        "med0777": {
+            "address": "Via Cherubini, 5, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.466768",
+            "lg": "11.378288",
+            "name": "SPINNATO LUIGI",
+            "opening": "Lun: 08.30-11.30. Mar: 14.30-18.00. Mer: 08.30-11.30. Gio: 17.00-19.30. Ven: 14.30-17.30.",
+            "tel": ""
+        },
+        "med0778": {
+            "address": "Via Enrico Mattei, 26, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.4952096",
+            "lg": "11.4015899",
+            "name": "SPINNATO LUIGI",
+            "opening": "Lun: 17.45-19.30. Mer: 17.45-19.30. Ven: 18.30-20.00.",
+            "tel": ""
+        },
+        "med0783": {
+            "address": "Via Toscana, 121/7, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.4562042",
+            "lg": "11.3689111",
+            "name": "STROCCHI ALESSANDRA",
+            "opening": "Lun: 16.00-19.30. Mar: 08.30-12.00. Mer: 08.30-12.00. Gio: 16.00-19.30. Ven: 08.30-12.00.",
+            "tel": ""
+        },
+        "med0784": {
+            "address": "Via Adelaide Ristori, 11/E, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.5026667",
+            "lg": "11.3704678",
+            "name": "STURANI ANNALISA",
+            "opening": "Lun: 15.00-18.00. Mar: 15.00-18.00. Mer: 09.00-10.00. Gio: 15.00-18.00. Ven: 09.00-10.00.",
+            "tel": ""
+        },
+        "med0785": {
+            "address": "Via Adelaide Ristori, 11/E, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.5026667",
+            "lg": "11.3704678",
+            "name": "STURANI ANNALISA",
+            "opening": "",
+            "tel": ""
+        },
+        "med0789": {
+            "address": "Piazza Trento E Trieste, 1, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.4876288",
+            "lg": "11.362453",
+            "name": "TAMBURINI MICHELE COSIMO",
+            "opening": "Lun: 09.30-11.30. Mar: 15.00-19.00. Mer: 09.30-11.30. Gio: 15.30-18.30. Ven: 09.30-11.30.",
+            "tel": ""
+        },
+        "med0792": {
+            "address": "Via Augusto Murri, 131, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.4774437",
+            "lg": "11.3660881",
+            "name": "TARANTINI PAOLO",
+            "opening": "Lun: 14.00-16.00. Mar: 09.30-12.00. Mer: 09.30-12.00. Gio: 09.30-12.00. Ven: 16.00-18.00.",
+            "tel": ""
+        },
+        "med0793": {
+            "address": "Via D'azeglio, 61, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.4874564",
+            "lg": "11.3395554",
+            "name": "TARANTINI PAOLO",
+            "opening": "Lun: 10.30-12.00. Mer: 15.30-17.00. Ven: 10.30-12.00.",
+            "tel": ""
+        },
+        "med0798": {
+            "address": "Via Sabotino, 30, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.4968848",
+            "lg": "11.3193577",
+            "name": "TAVERNELLI STEFANO",
+            "opening": "Lun: 15.00-19.00. Mar: 09.00-12.00. Mer: 15.00-19.00. Gio: 09.00-12.00. Ven: 15.00-19.00.",
+            "tel": ""
+        },
+        "med0799": {
+            "address": "Via Castiglione, 51, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.4876373",
+            "lg": "11.3480443",
+            "name": "TEDESCHI ROBERTO",
+            "opening": "Lun: 11.30-13.00. Mar: 11.45-13.00. Gio: 19.00-20.00.",
+            "tel": ""
+        },
+        "med0800": {
+            "address": "Via Marco Emilio Lepido, 45/c, 45/C, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.5173505",
+            "lg": "11.2757973",
+            "name": "TEDESCHI ROBERTO",
+            "opening": "Mer: 16.30-18.00.",
+            "tel": ""
+        },
+        "med0801": {
+            "address": "Via Parigi, 15, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.4966685",
+            "lg": "11.3403831",
+            "name": "TEDESCHI ROBERTO",
+            "opening": "Lun: 16.00-18.00. Mar: 10.00-11.30. Mer: 10.00-12.00. Gio: 16.00-19.00. Ven: 10.00-11.30.",
+            "tel": ""
+        },
+        "med0807": {
+            "address": "Via Della Barca, 36, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.4954489",
+            "lg": "11.2933364",
+            "name": "TESTONI LIANO",
+            "opening": "Lun: 08.00-10.30. Mar: 17.30-19.00. Mer: 15.00-16.30. Gio: 17.30-19.00. Ven: 08.00-10.30.",
+            "tel": ""
+        },
+        "med0808": {
+            "address": "Via Parigi, 15, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.4966685",
+            "lg": "11.3403831",
+            "name": "TESTONI LIANO",
+            "opening": "Lun: 15.00-17.00. Mar: 15.00-17.30. Mer: 08.00-11.00. Gio: 15.00-17.30. Ven: 15.00-17.00.",
+            "tel": ""
+        },
+        "med0809": {
+            "address": "Via Decumana, 60, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.5077644",
+            "lg": "11.2978913",
+            "name": "TESTONI SIMONETTA",
+            "opening": "Lun: 15.00-18.00. Mar: 09.00-12.00. Mer: 15.30-18.30. Gio: 09.00-12.00. Ven: 09.00-12.00.",
+            "tel": ""
+        },
+        "med0810": {
+            "address": "Via Decumana, 2, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.506757",
+            "lg": "11.3027969",
+            "name": "TIBALDI MARCO",
+            "opening": "Lun: 15.00-19.00. Mar: 15.00-19.00. Mer: 15.00-19.00. Gio: 15.00-19.00. Ven: 10.00-12.00. Sab: 10.00-12.00.",
+            "tel": ""
+        },
+        "med0811": {
+            "address": "Piazza Grigoris Lambrakis, 2, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.4773266",
+            "lg": "11.3971765",
+            "name": "TIOCCHI PIER PAOLO",
+            "opening": "Lun: 18.00-19.00. Mer: 18.00-19.00. Ven: 10.00-11.30.",
+            "tel": ""
+        },
+        "med0812": {
+            "address": "Via Marche, 2, 2, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.4794815",
+            "lg": "11.3835958",
+            "name": "TIOCCHI PIER PAOLO",
+            "opening": "Lun: 09.00-12.30. Mar: 16.00-19.30. Mer: 09.00-12.30. Gio: 16.00-19.30. Ven: 16.00-19.30.",
+            "tel": ""
+        },
+        "med0815": {
+            "address": "Via Giuseppe Massarenti, 112, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.4925209",
+            "lg": "11.3655995",
+            "name": "TORCHI PAOLA",
+            "opening": "Lun: 15.00-18.30. Mar: 09.00-12.00. Mer: 09.00-12.00. Gio: 15.00-18.30. Ven: 15.00-18.30.",
+            "tel": ""
+        },
+        "med0825": {
+            "address": "Via Carlo Alberto Pizzardi, 39, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.4897961",
+            "lg": "11.3687648",
+            "name": "TOZZI ROSSANO",
+            "opening": "Lun: 15.00-19.00. Mar: 15.00-19.00. Mer: 08.30-12.30. Gio: 15.00-19.00. Ven: 15.00-19.00.",
+            "tel": ""
+        },
+        "med0826": {
+            "address": "Via Giuseppe Massarenti, 179, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.4933827",
+            "lg": "11.3832155",
+            "name": "TOZZI ROSSANO",
+            "opening": "Lun: 11.30-12.30. Mar: 11.30-12.30. Gio: 11.30-12.30. Ven: 11.30-12.30.",
+            "tel": ""
+        },
+        "med0829": {
+            "address": "Via Leandro Alberti, 50/a, 50/A, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.4838008",
+            "lg": "11.370228",
+            "name": "TRENTI MANUELA",
+            "opening": "Lun: 15.00-16.30. Mar: 10.00-12.00. Mer: 15.00-18.00. Gio: 10.00-12.00. Ven: 12.30-14.00.",
+            "tel": ""
+        },
+        "med0832": {
+            "address": "Via San Mamolo, 23, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.4856432",
+            "lg": "11.3393541",
+            "name": "TRENTO LINO",
+            "opening": "Lun: 09.00-13.00. Mar: 15.00-19.00. Mer: 15.00-19.00. Gio: 09.00-13.00. Ven: 09.00-12.00.",
+            "tel": ""
+        },
+        "med0840": {
+            "address": "Via Andrea Costa, 143, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.495016",
+            "lg": "11.314257",
+            "name": "URSO GIOVANNI",
+            "opening": "Lun: 08.30-11.30. Gio: 15.30-18.30.",
+            "tel": ""
+        },
+        "med0841": {
+            "address": "Via Parigi, 15, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.4966685",
+            "lg": "11.3403831",
+            "name": "URSO GIOVANNI",
+            "opening": "Mer: 09.00-12.00.",
+            "tel": ""
+        },
+        "med0842": {
+            "address": "Via San Felice, 83, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.4977067",
+            "lg": "11.3319579",
+            "name": "URSO GIOVANNI",
+            "opening": "Lun: 12.00-12.30. Mar: 15.30-18.30. Mer: 12.30-13.00. Gio: 14.30-15.00. Ven: 08.30-11.30.",
+            "tel": ""
+        },
+        "med0843": {
+            "address": "Via San Felice, 83, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.4977067",
+            "lg": "11.3319579",
+            "name": "URSO GIOVANNI",
+            "opening": "",
+            "tel": ""
+        },
+        "med0844": {
+            "address": "Via Augusto Murri, 131, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.4774437",
+            "lg": "11.3660881",
+            "name": "VACIRCA MAURIZIO",
+            "opening": "Lun: 10.00-12.00. Mar: 15.00-16.00. Mer: 15.30-17.30. Gio: 10.30-11.30. Ven: 11.30-12.30.",
+            "tel": ""
+        },
+        "med0845": {
+            "address": "Via D'azeglio, 15, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.4925648",
+            "lg": "11.3419903",
+            "name": "VACIRCA MAURIZIO",
+            "opening": "Lun: 15.30-17.30. Gio: 15.00-18.00. Ven: 16.30-19.30.",
+            "tel": ""
+        },
+        "med0846": {
+            "address": "Via Ferrarese, 12, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.5117877",
+            "lg": "11.3491081",
+            "name": "VALENTI ROSA MARIA",
+            "opening": "Lun: 09.00-12.00. Mar: 16.00-19.00. Mer: 09.00-12.00. Gio: 16.00-19.00. Ven: 09.00-12.00.",
+            "tel": ""
+        },
+        "med0847": {
+            "address": "Via San Felice, 83, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.4977067",
+            "lg": "11.3319579",
+            "name": "VALENTI ROSA MARIA",
+            "opening": "Lun: 15.00-17.00. Mer: 15.30-16.30. Gio: 08.30-09.30.",
+            "tel": ""
+        },
+        "med0848": {
+            "address": "Via Di Corticella, 41, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.5153589",
+            "lg": "11.3478591",
+            "name": "VALENTINI GIULIO",
+            "opening": "Lun: 08.00-11.30. Mar: 08.00-11.30. Mer: 14.30-18.00. Gio: 14.30-18.00. Ven: 08.00-11.30.",
+            "tel": ""
+        },
+        "med0850": {
+            "address": "Via D'azeglio, 61, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.4874564",
+            "lg": "11.3395554",
+            "name": "VALLI VITTORIO",
+            "opening": "Lun: 11.30-12.30. Mar: 11.30-12.30. Mer: 11.30-12.30. Gio: 11.30-12.30. Ven: 11.30-12.30. Sab: 09.30-12.00.",
+            "tel": ""
+        },
+        "med0851": {
+            "address": "Via Marco Polo, 22/a, 22/A, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.5187958",
+            "lg": "11.3287469",
+            "name": "VALLI VITTORIO",
+            "opening": "Lun: 08.30-11.00. Mar: 08.30-11.00. Gio: 08.30-11.00. Ven: 08.30-11.00.",
+            "tel": ""
+        },
+        "med0852": {
+            "address": "Via Parigi, 15, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.4966685",
+            "lg": "11.3403831",
+            "name": "VALLI VITTORIO",
+            "opening": "Lun: 17.00-19.00. Mar: 17.00-19.00. Mer: 09.00-11.00. Gio: 17.00-19.00. Ven: 17.00-19.00.",
+            "tel": ""
+        },
+        "med0855": {
+            "address": "Via Lemonia, 45/e, 45/E, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.506869",
+            "lg": "11.2985417",
+            "name": "VECCHIATINI ROBERTO",
+            "opening": "Lun: 15.00-18.30. Mar: 09.00-12.00. Mer: 15.00-18.30. Gio: 09.00-12.00. Ven: 15.00-18.30.",
+            "tel": ""
+        },
+        "med0858": {
+            "address": "Via Barberia, 2, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.4914792",
+            "lg": "11.3395688",
+            "name": "VELONA' PIETRO",
+            "opening": "Mar: 08.00-09.30. Gio: 08.00-09.30.",
+            "tel": ""
+        },
+        "med0859": {
+            "address": "Via Luigi Pirandello, 14/l, 14/L, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.5117194",
+            "lg": "11.3900167",
+            "name": "VELONA' PIETRO",
+            "opening": "Lun: 15.00-18.30. Mar: 15.00-19.00. Mer: 15.00-18.30. Gio: 15.00-19.00. Ven: 15.00-18.30.",
+            "tel": ""
+        },
+        "med0860": {
+            "address": "Via Grazia Deledda, 26, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.5101653",
+            "lg": "11.3959437",
+            "name": "VENTRE MICHELE",
+            "opening": "Mar: 15.30-17.00. Gio: 15.30-17.00.",
+            "tel": ""
+        },
+        "med0865": {
+            "address": "Piazza Grigoris Lambrakis, 2/A, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.4773266",
+            "lg": "11.3971765",
+            "name": "VENTURINI MARIELLA",
+            "opening": "Lun: 15.30-16.30. Mar: 08.30-09.30. Mer: 08.30-09.30. Gio: 08.30-09.30. Ven: 08.30-09.30.",
+            "tel": ""
+        },
+        "med0870": {
+            "address": "Via Dell'indipendenza, 56, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.5004318",
+            "lg": "11.3441098",
+            "name": "VERRI ANDREA",
+            "opening": "Lun: 15.30-19.00. Mar: 08.30-12.00. Mer: 08.30-12.00. Gio: 08.30-12.00. Ven: 15.30-19.00.",
+            "tel": ""
+        },
+        "med0874": {
+            "address": "Via Tullio Golfarelli, 6, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.4743686",
+            "lg": "11.3914615",
+            "name": "VIRGILIO SILVANA",
+            "opening": "Lun: 17.00-19.30. Mar: 15.00-17.00. Mer: 08.30-10.30. Gio: 08.30-10.30. Ven: 17.00-19.00.",
+            "tel": ""
+        },
+        "med0875": {
+            "address": "Viale Abramo Lincoln, 72/A, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.4822394",
+            "lg": "11.3925084",
+            "name": "VIRGILIO SILVANA",
+            "opening": "Lun: 09.00-11.00. Mer: 15.00-17.00. Ven: 09.00-11.00.",
+            "tel": ""
+        },
+        "med0876": {
+            "address": "Via Alfredo Protti, 4, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.4831314",
+            "lg": "11.374329",
+            "name": "VITA PAOLO",
+            "opening": "Lun: 10.30-11.30. Mar: 10.30-11.30. Mer: 10.30-11.30. Gio: 10.30-11.30. Ven: 10.30-11.30.",
+            "tel": ""
+        },
+        "med0877": {
+            "address": "Piazza Aldo Capitini, 10/A-B, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.4953139",
+            "lg": "11.2928214",
+            "name": "VITALI VALERIA",
+            "opening": "Lun: 13.30-16.30. Mar: 16.00-19.00. Mer: 08.00-11.00. Gio: 08.00-11.00. Ven: 08.00-11.00.",
+            "tel": ""
+        },
+        "med0878": {
+            "address": "Via Toscana, 71, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.464632",
+            "lg": "11.3706866",
+            "name": "VITOLO ANDREA",
+            "opening": "Lun: 10.30-13.00. Mar: 10.30-13.00. Mer: 10.30-13.00. Gio: 10.30-13.00. Ven: 10.30-13.00.",
+            "tel": ""
+        },
+        "med0879": {
+            "address": "Via Toscana, 71, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.464632",
+            "lg": "11.3706866",
+            "name": "VITOLO EMANUELE",
+            "opening": "Lun: 10.30-12.30. Mar: 14.30-17.00. Mer: 14.30-17.00. Gio: 10.30-12.30. Ven: 10.30-12.30.",
+            "tel": ""
+        },
+        "med0882": {
+            "address": "Via Isabella Andreini, 32, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.5008484",
+            "lg": "11.3736774",
+            "name": "VOLPE ANTONIO",
+            "opening": "Lun: 11.00-12.00. Mar: 11.00-12.00. Mer: 15.30-17.00. Gio: 11.00-12.00. Ven: 11.00-12.00.",
+            "tel": ""
+        },
+        "med0883": {
+            "address": "Via Zanardi, 6, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.5034779",
+            "lg": "11.3326071",
+            "name": "VOLPE ANTONIO",
+            "opening": "Lun: 15.00-18.30. Mar: 15.00-18.30. Mer: 08.00-09.30. Gio: 15.00-18.30. Ven: 15.00-18.30.",
+            "tel": ""
+        },
+        "med0884": {
+            "address": "Via Gatti, 4, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.5433244",
+            "lg": "11.3561089",
+            "name": "VOZA MAURO",
+            "opening": "Lun: 14.00-17.00. Mar: 10.00-13.00. Mer: 14.00-17.00. Gio: 15.00-18.00. Ven: 14.00-17.00.",
+            "tel": ""
+        },
+        "med0885": {
+            "address": "Via Pompeo Vizzani, 61/F, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.489016",
+            "lg": "11.3741901",
+            "name": "VOZA MAURO",
+            "opening": "Lun: 08.00-11.00. Mer: 08.00-10.30. Ven: 08.00-11.00.",
+            "tel": ""
+        },
+        "med0886": {
+            "address": "Via Pompeo Vizzani, 61/F, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.489016",
+            "lg": "11.3741901",
+            "name": "VOZA MAURO",
+            "opening": "",
+            "tel": ""
+        },
+        "med0887": {
+            "address": "Strada Maggiore, 28, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.493108",
+            "lg": "11.3494735",
+            "name": "ZACCHIA RONDININI TANARI PAOLO EMILIO",
+            "opening": "Lun: 15.00-16.30. Mar: 09.00-11.00. Gio: 15.00-16.30. Ven: 09.00-11.00.",
+            "tel": ""
+        },
+        "med0888": {
+            "address": "Via Giuseppe Bentivogli, 17/E, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.4935309",
+            "lg": "11.3648433",
+            "name": "ZACCHIA RONDININI TANARI PAOLO EMILIO",
+            "opening": "Lun: 09.00-11.00. Mar: 17.00-19.00. Mer: 17.00-19.00. Gio: 09.00-11.00. Ven: 17.00-19.00.",
+            "tel": ""
+        },
+        "med0892": {
+            "address": "Via Francesco Acri, 9, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.4951999",
+            "lg": "11.3525989",
+            "name": "ZAMBONI STEFANO",
+            "opening": "Lun: 10.00-13.00. Mar: 10.00-13.00. Mer: 10.00-13.00. Gio: 10.00-13.00. Ven: 10.00-13.00.",
+            "tel": ""
+        },
+        "med0894": {
+            "address": "Via Genuzio Bentini, 24/C, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.5467663",
+            "lg": "11.3564304",
+            "name": "ZANASI MASSIMO",
+            "opening": "Lun: 08.00-11.30. Mar: 15.30-19.30. Mer: 11.00-12.00. Gio: 15.30-19.30. Ven: 08.00-11.30.",
+            "tel": ""
+        },
+        "med0899": {
+            "address": "Piazza Aldo Capitini, 10/A-B, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.4953139",
+            "lg": "11.2928214",
+            "name": "ZANNONI STEFANO",
+            "opening": "Lun: 09.00-12.00. Mar: 09.00-12.00. Mer: 15.00-19.00. Gio: 15.00-19.00. Ven: 09.00-12.00.",
+            "tel": ""
+        },
+        "med0901": {
+            "address": "Piazza Dell'unita', 5, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.5112048",
+            "lg": "11.3465968",
+            "name": "ZINGONI STEFANO",
+            "opening": "Lun: 15.00-19.15. Mar: 15.00-19.15. Mer: 15.00-19.15. Gio: 15.00-19.15. Ven: 15.00-19.15.",
+            "tel": ""
+        },
+        "med0904": {
+            "address": "Via Delle Lame, 57, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.4991781",
+            "lg": "11.3352229",
+            "name": "ZINI PIERPAOLO",
+            "opening": "Lun: 17.30-19.00. Mar: 14.00-15.00. Gio: 14.00-15.00. Ven: 17.30-19.00.",
+            "tel": ""
+        },
+        "med0905": {
+            "address": "Via Grazia Deledda, 14, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.5095352",
+            "lg": "11.3968443",
+            "name": "ZINI PIERPAOLO",
+            "opening": "Lun: 08.00-10.00. Mar: 16.00-18.00. Mer: 08.00-10.00. Gio: 16.00-18.00. Ven: 08.00-10.00.",
+            "tel": ""
+        },
+        "med0911": {
+            "address": "Piazza Belluno, 5, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.4766119",
+            "lg": "11.3823052",
+            "name": "ZOCCHI DONATO",
+            "opening": "Lun: 15.30-19.30. Mar: 15.30-19.30. Mer: 15.30-19.30. Gio: 10.00-13.00. Ven: 15.30-19.30.",
+            "tel": ""
+        },
+        "med0912": {
+            "address": "Via Marco Emilio Lepido, 45/c, 45/C, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.5173505",
+            "lg": "11.2757973",
+            "name": "ZOCCOLI GIUSEPPE",
+            "opening": "Mar: 13.30-17.00. Gio: 13.30-17.00.",
+            "tel": ""
+        },
+        "med0913": {
+            "address": "Via Zanardi, 6, BOLOGNA - BO, Italy",
+            "categories": [
+                "Medico di medicina generale"
+            ],
+            "closing": "",
+            "lat": "44.5034779",
+            "lg": "11.3326071",
+            "name": "ZOCCOLI GIUSEPPE",
+            "opening": "Lun: 13.30-18.00. Mar: 10.00-12.00. Mer: 13.30-18.00. Gio: 09.30-12.00. Ven: 13.30-18.00.",
+            "tel": ""
+        }
+    },
+    "metadata": {
+        "created": "20/12/2011",
+        "creator": "Alessandro Ghedini",
+        "source": "http://salute.bologna.it/",
+        "valid": "",
+        "version": "1.0"
+    }
+}

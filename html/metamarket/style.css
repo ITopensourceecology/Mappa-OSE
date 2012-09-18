@@ -1,0 +1,165 @@
+body {
+	background: #EDEDED;
+	color: #000000;
+	margin: 0px 0px 0px 0px;
+	font-size: 12px;
+	font-family: helvetica;
+}
+
+#MAIN {
+	text-align: left;
+	height: 93%;
+	width: 100%;
+}
+
+#HEADER {
+	margin-left: 10px;
+	margin-bottom: 10px;
+	height: 50px;
+}
+
+#logo {
+	float: left;
+	margin-left: 5px;
+	margin-right: 15px;
+	margin-top: -15px;
+}
+
+#search {
+	margin-top: 15px;
+	margin-right: 5px
+	font-family: helvetica, arial;
+}
+
+#field {
+	float: left;
+	width: 40%;
+	height: 40px;
+	line-height: 20px;
+	text-indent: 10px;
+	color: #333;
+	background: #fff;
+	border:solid 1px #d9d9d9;
+	border-top:solid 1px #c0c0c0;
+	border-right: none;
+}
+
+#delete {
+	float: left;
+	width: 16px;
+	height: 38px;
+	line-height: 38px;
+	margin-right: 15px;
+	padding: 0 10px 0 10px;
+	text-align: center;
+	background: #fff;
+	border: solid 1px #d9d9d9;
+	border-top: solid 1px #c0c0c0;
+	border-left: none;
+}
+
+.box {
+	margin-bottom: 10px;
+	position: relative;
+	width: auto;
+	overflow: visible;
+}
+
+#delete #x {
+	color: #A1B9ED;
+	cursor: pointer;
+	display :none;
+}
+
+#delete #x:hover {
+	color: #36c;
+}
+
+#submit {
+	cursor: pointer;
+	width: 70px;
+	height: 40px;
+	float: left;
+	line-height: 0;
+	text-indent: -999px;
+	color: transparent;
+	background: url(icone/cerca.png) no-repeat #4d90fe center;
+	border: 1px solid #3079ED;
+	border-radius: 2px;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+}
+
+#submit:hover {
+	background: url(icone/cerca.png) no-repeat center #357AE8;
+	border: 1px solid #2F5BB7;
+}
+
+#loader {
+	display: none;
+	margin: 5px 0px 0px 5px;
+}
+
+#MENU {
+	width: 25%;
+	height: 97%;
+	float: left;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+#raggio {
+	width: 75%;
+	float: left;
+	margin-right: 12px;
+}
+
+.box-head {
+	height: 88%;
+}
+
+.box-cont {
+	height: 97%;
+}
+
+#categorie {
+	height: 95%;
+	overflow-y: scroll
+}
+
+#loaderc {
+	top: 50%;
+	left: 50%;
+	margin: -16px 0 0 -16px;
+	position: absolute;
+}
+
+.ico {
+	height: 13px;
+}
+
+#narratore {
+	height: 89%;
+	overflow-y: scroll
+}
+
+.icot {
+	height: 18px;
+}
+
+#mappa {
+	margin-top: 2px;
+	height: 92%;
+}
+
+#CONTENT {
+	float: left;
+	width: 73%;
+	height: 95%;
+}
+
+#FOOTER {
+	clear: both;
+	margin-right: 5px;
+	text-align: right;
+}

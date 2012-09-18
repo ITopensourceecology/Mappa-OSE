@@ -1,0 +1,25 @@
+{
+	"aggregatori": [
+		"ltw1127-supermercati",
+		"ltw1131-parcheggi",
+		"ltw1133-takeaway",
+		"ltw1134-aggregatore-pronto-soccorsi",
+		"ltw1139-sexyshop-bologna",
+		"ltw1140-museiBO2011",
+		"ltw1203-eventi",
+		"ltw1203-strumentimusicali",
+		"ltw1209-bar",
+		"ltw1209-ristoranti",
+		"ltw1216-centriScommesse",
+		"ltw1216-centriSport"
+	],
+
+	"categorie": [
+		"Food & beverage",
+		"Negozio",
+		"Negozio animali",
+		"Poste e telegrafi",
+		"Scotthish pub",
+		"Ufficio postale"
+	]
+}

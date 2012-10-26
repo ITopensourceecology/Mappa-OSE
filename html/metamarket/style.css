@@ -124,7 +124,7 @@ body {
 
 #categorie {
 	height: 95%;
-	overflow-y: scroll
+	overflow-n: scroll
 }
 
 #loaderc {
@@ -140,7 +140,7 @@ body {
 
 #narratore {
 	height: 89%;
-	overflow-y: scroll
+	overflow-n: scroll
 }
 
 .icot {

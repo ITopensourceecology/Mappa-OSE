@@ -5,7 +5,7 @@ var lastreq;
 var lastopen;
 var firstreq = 1;
 
-var grp_url = "http://ltw1202.web.cs.unibo.it";
+var grp_url = "data";
 
 function errore(msg) {
 	$().toastmessage('showErrorToast', msg);
@@ -40,33 +40,14 @@ function inizializza_tabella(ogg) {
 	});
 }
 
-function trova_posizione() {
-	if (navigator.geolocation) {
-		navigator.geolocation.getCurrentPosition(function (pos) {
-			var a = new google.maps.LatLng(
-				pos.coords.latitude,
-				pos.coords.longitude
-			);
-
-			user.setPosition(a);
-
-			mappa.setCenter(a);
-		}, function () {
-			errore("Impossibile geolocalizzarti");
-		});
-	} else {
-		errore("Impossibile geolocalizzarti");
-	}
-}
-
 function inizializza_mappa(){
-	var latitude = 44.494;
-	var longitude = 11.346;
-	var Bologna = new google.maps.LatLng(latitude, longitude);
+	var latitude = 42.000;
+	var longitude = 13.000;
+	var Ita = new google.maps.LatLng(latitude, longitude);
 
 	mappa = new google.maps.Map($('#mappa')[0],{
-		zoom:		14,
-		center:		Bologna,
+		zoom:		6,
+		center:		Ita,
 		mapTypeId:	google.maps.MapTypeId.ROADMAP
 	});
 
@@ -88,7 +69,7 @@ function inizializza_mappa(){
 	});
 
 	var userinfo = new google.maps.InfoWindow({
-		content: "<p><b>Tu sei qui!</b></p><p>Muovi il segnalino per cambiare posizione.</p>"
+		content: "<p><b>Origine</b></p><p>Muovi il segnalino per cambiare posizione.</p>"
 	});
 
 	google.maps.event.addListener(user, 'click', function () {
@@ -106,7 +87,6 @@ function inizializza_mappa(){
 	userinfo.open(mappa, user);
 	lastopen = userinfo;
 
-	trova_posizione();
 }
 
 function aggiorna_narratori(data) {

@@ -5,7 +5,7 @@ var lastreq;
 var lastopen;
 var firstreq = 1;
 
-var grp_url = "data";
+var grp_url = "http://opensourceecology.it/mappa";
 
 function errore(msg) {
 	$().toastmessage('showErrorToast', msg);
@@ -68,15 +68,10 @@ function inizializza_mappa(){
 		title:		"User"
 	});
 
-	var userinfo = new google.maps.InfoWindow({
-		content: "<p><b>Origine</b></p><p>Muovi il segnalino per cambiare posizione.</p>"
-	});
 
 	google.maps.event.addListener(user, 'click', function () {
 		lastopen.close();
 
-		userinfo.open(mappa, this);
-		lastopen = userinfo;
 	});
 
 	google.maps.event.addListener(user, 'dragend', function() {
@@ -84,15 +79,13 @@ function inizializza_mappa(){
 			$("#submit").click();
 	});
 
-	userinfo.open(mappa, user);
-	lastopen = userinfo;
 
 }
 
 function aggiorna_narratori(data) {
 	$("#tabella .riga").remove();
 	mappa.removeMarks();
-
+data=eval('('+data+')');
 	$.each(data.locations, function (id, info) {
 		var name   = $.trim(info.name);
 		var addr   = $.trim(info.address);
@@ -103,7 +96,6 @@ function aggiorna_narratori(data) {
 		var close  = $.trim(info.closing);
 		var categ  = $.trim(info.category).split(',')[0];
 		var icona  = ('metamarket/icone/' + categ + '.png').toLowerCase();
-
 		$("#tabella").append(
 			'<tr class="riga">' +
 				'<td><img class="icot" src="' + icona + '" /></td>' +
@@ -123,8 +115,8 @@ function aggiorna_narratori(data) {
 		});
 
 		google.maps.event.addListener(marker, 'click', function () {
-			var aperto = aprira(open);
-			var dist   = Math.round(calcola_distanza(lat, lon));
+			//var aperto = aprira(open);
+//			var dist   = Math.round(calcola_distanza(lat, lon));
 
 			lastopen.close();
 
@@ -132,9 +124,9 @@ function aggiorna_narratori(data) {
 				content: "<p><b>" + name + "</b></p>" +
 					"<p>" + addr + "</p>" +
 					"<p>" + tel + "</p>" +
-					"<p>" + open + "</p>" +
+					"<p>" + open + "</p>" /*+
 					"<p>" + dist + " metri da te</p>" +
-					"<p>" + aperto + "</p>"
+					"<p>" + aperto + "</p>"*/
 			});
 
 			infowindow.open(mappa, this)
@@ -150,16 +142,7 @@ function aggiorna_narratori(data) {
 }
 
 function inizializza_categorie() {
-	var base_url = grp_url + "/descr-tipologiap/params/list/category";
-	var blck_url = grp_url + "/blacklist";
-	var blacklist;
-
-	$.ajax({
-		url: blck_url,
-		dataType: "json",
-		success: function (data) { blacklist = data; },
-		async: false
-	});
+	var base_url = grp_url + "/data/sample.xml";
 
 	$.get(base_url, function (data) {
 		var categs = $(data).find("category")
@@ -175,12 +158,6 @@ function inizializza_categorie() {
 			var aggr = $(this).attr('aggregatore').split(", ")[0];
 			var desc = $(this).attr('id');
 			var icona  = ('metamarket/icone/' + desc + '.png').toLowerCase();
-
-			if ($.inArray(aggr, blacklist.aggregatori) > -1)
-				return true;
-
-			if ($.inArray(desc, blacklist.categorie) > -1)
-				return true;
 
 			$('#categorie').append(
 				'<label>' +
@@ -239,26 +216,30 @@ function inizializza_ricerca() {
 
 function trova_locations(nome, raggio, aggrs, categs) {
 	var p = user.getPosition();
-	var base_url = grp_url + "/descr-interseca/";
+	var base_url = grp_url + "/data";
 
 	if ((nome == "") || (nome == "Cerca un nome..."))
 		nome = "undef";
 
-	base_url += aggrs.join('/') + '/params/' +
-		p.lat() + '/' + p.lng() + '/' + raggio +
-		'/' + encodeURIComponent(categs) + '/' + nome;
-
+/*	base_url += aggrs.join('/'); + '/params/' +
+//		p.lat() + '/' + p.lng() + '/' + raggio +
+//		'/' + encodeURIComponent(categs) + '/' + nome;
+*/
 	if (lastreq != undefined)
 		lastreq.abort();
-
-	lastreq = $.get(base_url, function (data) {
-		aggiorna_narratori(data);
+	
+	lastreq = 1;
+		aggrs.forEach(function (aggr){
+			base_url+="/"+aggr;
+			$.get(base_url, function (data) {
+				aggiorna_narratori(data);
+				firstreq = 0;
+		})
 		lastreq = undefined;
-		firstreq = 0;
 	});
 }
 
-function calcola_distanza(lat, lon) {
+/*function calcola_distanza(lat, lon) {
 	var dist;
 	var p = user.getPosition();
 	var base_url = grp_url + "/descr-distanza/";
@@ -314,7 +295,7 @@ function aprira(opening) {
 		default: return "";
 	}
 }
-
+*/
 $(document).ready(function() {
 	inizializza_mappa();
 	inizializza_tabella();
@@ -360,3 +341,4 @@ $(document).ready(function() {
 		trova_locations(parola, raggio, aggrs, categs);
 	});
 });
+

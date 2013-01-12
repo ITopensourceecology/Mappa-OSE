@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+  <category id="Officine" aggregatore="officine"/>
+  <category id="Sedi" aggregatore="sedi"/>
+  <category id="Collaboratori" aggregatore="collaboratori"/>
+</list>
+

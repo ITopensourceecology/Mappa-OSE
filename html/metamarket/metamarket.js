@@ -4,6 +4,7 @@ var markers = [];
 var lastreq;
 var lastopen;
 var firstreq = 1;
+var current_data = {};
 
 var grp_url = "http://opensourceecology.it/mappa";
 
@@ -12,46 +13,46 @@ function errore(msg) {
 }
 
 function inizializza_tabella(ogg) {
-	$("#ordine th").each(function () {
+	$("#ordine th").each(function() {
 		$(this).addClass("ui-state-default");
 	});
 
-	$("#ordine td").each(function(){
+	$("#ordine td").each(function() {
 		$(this).addClass("ui-widget-content");
 	});
 
-	$("#ordine tr").hover(function () {
+	$("#ordine tr").hover(function() {
 		$(this).children("td").addClass("ui-state-hover");
-	}, function () {
+	}, function() {
 		$(this).children("td").removeClass("ui-state-hover");
 	});
 
-	$("#ordine tr").click(function(){
+	$("#ordine tr").click(function() {
 		$(this).children("td").toggleClass("ui-state-highlight");
 	});
 
-	$("#ordine").tablesorter({
-		headers: {
-			0: { sorter: false  },
-			1: { sorter: 'text' },
-			2: { sorter: 'text' },
-			3: { sorter: false  }
+	$("#ordine").tablesorter( {
+headers: {
+0: { sorter: false  },
+1: { sorter: 'text' },
+2: { sorter: 'text' },
+3: { sorter: false  }
 		}
 	});
 }
 
-function inizializza_mappa(){
+function inizializza_mappa() {
 	var latitude = 42.000;
 	var longitude = 13.000;
 	var Ita = new google.maps.LatLng(latitude, longitude);
 
-	mappa = new google.maps.Map($('#mappa')[0],{
+	mappa = new google.maps.Map($('#mappa')[0], {
 		zoom:		6,
-		center:		Ita,
-		mapTypeId:	google.maps.MapTypeId.ROADMAP
+center:		Ita,
+mapTypeId:	google.maps.MapTypeId.ROADMAP
 	});
 
-	google.maps.Map.prototype.removeMarks = function () {
+	google.maps.Map.prototype.removeMarks = function() {
 		if (markers) {
 			for (var i = 0; i < markers.length; i++) {
 				markers[i].setMap(null);
@@ -59,17 +60,17 @@ function inizializza_mappa(){
 		}
 	}
 
-	user = new google.maps.Marker({
-		position:	new google.maps.LatLng(latitude, longitude),
-		map:		mappa,
-		draggable:	true,
-		animation:	google.maps.Animation.DROP,
-		icon:		"metamarket/icone/you-are-here.png",
-		title:		"User"
+	user = new google.maps.Marker( {
+position:	new google.maps.LatLng(latitude, longitude),
+map:		mappa,
+draggable:	true,
+animation:	google.maps.Animation.DROP,
+icon:		"metamarket/icone/you-are-here.png",
+title:		"User"
 	});
 
 
-	google.maps.event.addListener(user, 'click', function () {
+	google.maps.event.addListener(user, 'click', function() {
 		lastopen.close();
 
 	});
@@ -82,59 +83,62 @@ function inizializza_mappa(){
 
 }
 
-function aggiorna_narratori(data) {
+function aggiorna_narratori(data, aggrs) {
 	$("#tabella .riga").remove();
 	mappa.removeMarks();
-data=eval('('+data+')');
-	$.each(data.locations, function (id, info) {
-		var name   = $.trim(info.name);
-		var addr   = $.trim(info.address);
-		var lat    = $.trim(info.lat);
-		var lon    = $.trim(info.long);
-		var tel    = $.trim(info.tel);
-		var open   = $.trim(info.opening);
-		var close  = $.trim(info.closing);
-		var categ  = $.trim(info.category).split(',')[0];
-		var icona  = ('metamarket/icone/' + categ + '.png').toLowerCase();
-		$("#tabella").append(
-			'<tr class="riga">' +
-				'<td><img class="icot" src="' + icona + '" /></td>' +
-				'<td>' + name + '</td>' +
-				'<td>' + addr + '</td>' +
-				'<td>' + tel  + '</td>' +
-			'</tr>'
-		);
+	$.each(data, function(aggr, dat) {
+		if (aggrs.indexOf(aggr) != -1) {
+			$.each(dat, function(id, info) {
+				var name   = $.trim(info.name);
+				var addr   = $.trim(info.address);
+				var lat    = $.trim(info.lat);
+				var lon    = $.trim(info.long);
+				var tel    = $.trim(info.tel);
+				var open   = $.trim(info.opening);
+				var close  = $.trim(info.closing);
+				var categ  = $.trim(info.category).split(',')[0];
+				var icona  = ('metamarket/icone/' + categ + '.png').toLowerCase();
+				$("#tabella").append(
+				    '<tr class="riga">' +
+				    '<td><img class="icot" src="' + icona + '" /></td>' +
+				    '<td>' + name + '</td>' +
+				    '<td>' + addr + '</td>' +
+				    '<td>' + tel  + '</td>' +
+				    '</tr>'
+				);
 
-		var marker = new google.maps.Marker({
-			position:	new google.maps.LatLng(lat, lon),
-			map:		mappa,
-			draggable:	false,
-			animation:	google.maps.Animation.DROP,
-			title:		name,
-			icon:		icona
-		});
+				var marker = new google.maps.Marker( {
+position:	new google.maps.LatLng(lat, lon),
+map:		mappa,
+draggable:	false,
+animation:	google.maps.Animation.DROP,
+title:		name,
+icon:		icona
+				});
 
-		google.maps.event.addListener(marker, 'click', function () {
-			//var aperto = aprira(open);
+				google.maps.event.addListener(marker, 'click', function() {
+					//var aperto = aprira(open);
 //			var dist   = Math.round(calcola_distanza(lat, lon));
 
-			lastopen.close();
+					lastopen.close();
 
-			var infowindow = new google.maps.InfoWindow({
-				content: "<p><b>" + name + "</b></p>" +
-					"<p>" + addr + "</p>" +
-					"<p>" + tel + "</p>" +
-					"<p>" + open + "</p>" /*+
+					var infowindow = new google.maps.InfoWindow( {
+content: "<p><b>" + name + "</b></p>" +
+						"<p>" + addr + "</p>" +
+						"<p>" + tel + "</p>" +
+						"<p>" + open + "</p>" /*+
 					"<p>" + dist + " metri da te</p>" +
 					"<p>" + aperto + "</p>"*/
+					});
+
+					infowindow.open(mappa, this)
+					lastopen = infowindow;
+				});
+
+				markers.push(marker);
 			});
-
-			infowindow.open(mappa, this)
-			lastopen = infowindow;
-		});
-
-		markers.push(marker);
-	});
+		}
+	})
 
 	$("#ordine").trigger("update");
 	$("#loader").hide();
@@ -144,7 +148,7 @@ data=eval('('+data+')');
 function inizializza_categorie() {
 	var base_url = grp_url + "/data/sample.xml";
 
-	$.get(base_url, function (data) {
+	$.get(base_url, function(data) {
 		var categs = $(data).find("category")
 
 		categs.sort(function(a, b) {
@@ -153,23 +157,23 @@ function inizializza_categorie() {
 
 		$("#loaderc").remove();
 
-		categs.each(function () {
+		categs.each(function() {
 			var lim_max = 34;
 			var aggr = $(this).attr('aggregatore').split(", ")[0];
 			var desc = $(this).attr('id');
 			var icona  = ('metamarket/icone/' + desc + '.png').toLowerCase();
 
 			$('#categorie').append(
-				'<label>' +
-				'<img class="ico" src="' + icona + '"/>' +
-				'<input type="checkbox" id="' + aggr + '" name="'+ desc + '" class="categoria"/>' +
-				'<a title="' + desc + '">' + desc + '</a>' +
-				'</label><br>'
+			    '<label>' +
+			    '<img class="ico" src="' + icona + '"/>' +
+			    '<input type="checkbox" id="' + aggr + '" name="' + desc + '" class="categoria"/>' +
+			    '<a title="' + desc + '">' + desc + '</a>' +
+			    '</label><br>'
 			);
 		});
 	});
 
-	$('.categoria').live('change', function () {
+	$('.categoria').live('change', function() {
 		$("#submit").click();
 	});
 }
@@ -178,6 +182,7 @@ function inizializza_ricerca() {
 	// Mostra la "X" se c'è testo
 	$("#field").keyup(function() {
 		$("#x").fadeIn();
+
 		if ($.trim($("#field").val()) == "") {
 			$("#x").fadeOut();
 		}
@@ -191,13 +196,13 @@ function inizializza_ricerca() {
 	});
 
 	// Imposta testo predefinito
-	$("#field").live("blur", function () {
+	$("#field").live("blur", function() {
 		var default_value = $(this).attr("rel");
 
 		if ($(this).val() == "") {
 			$(this).val(default_value);
 		}
-	}).live("focus", function () {
+	}).live("focus", function() {
 		var default_value = $(this).attr("rel");
 
 		if ($(this).val() == default_value) {
@@ -205,7 +210,7 @@ function inizializza_ricerca() {
 		}
 	});
 
-	$('#field').keypress(function (e){
+	$('#field').keypress(function(e) {
 		if (e.which == 13) {
 			$("#submit").click();
 		}
@@ -218,25 +223,40 @@ function trova_locations(nome, raggio, aggrs, categs) {
 	var p = user.getPosition();
 	var base_url = grp_url + "/data";
 
+	if (aggrs.length == 0) {
+		aggiorna_narratori(current_data, aggrs);
+		return;
+	}
+
 	if ((nome == "") || (nome == "Cerca un nome..."))
 		nome = "undef";
 
-/*	base_url += aggrs.join('/'); + '/params/' +
-//		p.lat() + '/' + p.lng() + '/' + raggio +
-//		'/' + encodeURIComponent(categs) + '/' + nome;
-*/
+	/*	base_url += aggrs.join('/'); + '/params/' +
+	//		p.lat() + '/' + p.lng() + '/' + raggio +
+	//		'/' + encodeURIComponent(categs) + '/' + nome;
+	*/
 	if (lastreq != undefined)
 		lastreq.abort();
-	
+
 	lastreq = 1;
-		aggrs.forEach(function (aggr){
-			base_url+="/"+aggr;
-			$.get(base_url, function (data) {
-				aggiorna_narratori(data);
+	aggrs.forEach(function(aggr) {
+		if (current_data[aggr] == undefined) {
+			current_data[aggr] = {};
+			base_url += "/" + aggr;
+			$.get(base_url, function(data) {
+				data = eval('(' + data + ')');
+				$.each(data.locations, function(id, info) {
+					current_data[aggr][id] = info;
+				})
+				aggiorna_narratori(current_data, aggrs);
+
 				firstreq = 0;
-		})
+			})
+		}
+
 		lastreq = undefined;
 	});
+	aggiorna_narratori(current_data, aggrs);
 }
 
 /*function calcola_distanza(lat, lon) {
@@ -303,38 +323,38 @@ $(document).ready(function() {
 
 	inizializza_ricerca();
 
-	$("#CONTENT").tabs({
-		show: function () {
+	$("#CONTENT").tabs( {
+show: function() {
 			google.maps.event.trigger(
-				mappa, 'resize'
+			    mappa, 'resize'
 			);
 		}
 	});
 
-	$("#raggio").slider({
+	$("#raggio").slider( {
 		min: 50,
 		max: 5000,
 		value: 1000,
-		slide: function (ev, ui) { $("#metri").text(ui.value); },
-		change: function () { if (firstreq == 0) $("#submit").click(); }
+slide: function(ev, ui) {
+			$("#metri").text(ui.value);
+		},
+change: function() {
+			if (firstreq == 0)
+				$("#submit").click();
+		}
 	});
 
-	$("#submit").click(function () {
+	$("#submit").click(function() {
 		var raggio = $('#raggio').slider("value");
 		var parola = $('#field').val();
 
 		var aggrs  = [];
 		var categs = [];
 
-		$.each($('.categoria:checked'), function (i, cat) {
+		$.each($('.categoria:checked'), function(i, cat) {
 			aggrs.push(cat.id);
 			categs.push(cat.name);
 		});
-
-		if (aggrs.length == 0) {
-			errore("Seleziona almeno una categoria");
-			return;
-		}
 
 		$("#loader").show();
 

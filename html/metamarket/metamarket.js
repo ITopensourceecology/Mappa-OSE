@@ -88,6 +88,7 @@ function aggiorna_narratori(data, aggrs) {
 	mappa.removeMarks();
 	$.each(data, function(aggr, dat) {
 		if (aggrs.indexOf(aggr) != -1) {
+			dat=filtra_distanza(dat);
 			$.each(dat, function(id, info) {
 				var name   = $.trim(info.name);
 				var addr   = $.trim(info.address);
@@ -127,7 +128,7 @@ content: "<p><b>" + name + "</b></p>" +
 						"<p>" + addr + "</p>" +
 						"<p>" + tel + "</p>" +
 						"<p>" + open + "</p>" /*+
-					"<p>" + dist + " metri da te</p>" +
+					"<p>" + dist + " kilometri da te</p>" +
 					"<p>" + aperto + "</p>"*/
 					});
 
@@ -258,23 +259,24 @@ function trova_locations(nome, raggio, aggrs, categs) {
 	});
 	aggiorna_narratori(current_data, aggrs);
 }
-
-/*function calcola_distanza(lat, lon) {
+//TODO
+function filtra_distanza(data) {
 	var dist;
 	var p = user.getPosition();
-	var base_url = grp_url + "/descr-distanza/";
+	
+//	var base_url = grp_url + "/descr-distanza/";
 
-	base_url += 'params/' + p.lat() + '/' + p.lng() + '/' + lat + '/' + lon;
+//	base_url += 'params/' + p.lat() + '/' + p.lng() + '/' + lat + '/' + lon;
 
-	$.ajax({
-		url: base_url,
-		success: function (data) { dist = data; },
-		async:false
-	});
+//	$.ajax({
+//		url: base_url,
+//		success: function (data) { dist = data; },
+//		async:false
+//	});
 
-	return dist;
+	return data;
 }
-
+/*
 function orario() {
 	var d = new Date();
 	var weekday = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
@@ -332,11 +334,11 @@ show: function() {
 	});
 
 	$("#raggio").slider( {
-		min: 50,
+		min: 1,
 		max: 5000,
-		value: 1000,
+		value: 1500,
 slide: function(ev, ui) {
-			$("#metri").text(ui.value);
+			$("#kilometri").text(ui.value);
 		},
 change: function() {
 			if (firstreq == 0)

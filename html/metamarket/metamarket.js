@@ -2,7 +2,7 @@ var user;
 var mappa;
 var markers = [];
 var lastreq;
-var lastopen;
+var lastopen = undefined;
 var firstreq = 1;
 var current_data = {};
 
@@ -71,7 +71,10 @@ title:		"User"
 
 
 	google.maps.event.addListener(user, 'click', function() {
-		lastopen.close();
+		if (lastopen != undefined)
+			lastopen.close();
+
+		lastopen = undefined;
 
 	});
 
@@ -88,55 +91,60 @@ function aggiorna_narratori(data, aggrs) {
 	mappa.removeMarks();
 	$.each(data, function(aggr, dat) {
 		if (aggrs.indexOf(aggr) != -1) {
-			dat=filtra_distanza(dat);
+			dat = filtra_distanza(dat);
 			$.each(dat, function(id, info) {
-				var name   = $.trim(info.name);
-				var addr   = $.trim(info.address);
-				var lat    = $.trim(info.lat);
-				var lon    = $.trim(info.long);
-				var tel    = $.trim(info.tel);
-				var open   = $.trim(info.opening);
-				var close  = $.trim(info.closing);
-				var categ  = $.trim(info.category).split(',')[0];
-				var icona  = ('metamarket/icone/' + categ + '.png').toLowerCase();
-				$("#tabella").append(
-				    '<tr class="riga">' +
-				    '<td><img class="icot" src="' + icona + '" /></td>' +
-				    '<td>' + name + '</td>' +
-				    '<td>' + addr + '</td>' +
-				    '<td>' + tel  + '</td>' +
-				    '</tr>'
-				);
+				if (info.tooFar == 0) {
+					var name   = $.trim(info.name);
+					var addr   = $.trim(info.address);
+					var lat    = $.trim(info.lat);
+					var lon    = $.trim(info.long);
+					var tel    = $.trim(info.tel);
+					var open   = $.trim(info.opening);
+					var close  = $.trim(info.closing);
+					var categ  = $.trim(info.category).split(',')[0];
+					var icona  = ('metamarket/icone/' + categ + '.png').toLowerCase();
+					$("#tabella").append(
+					    '<tr class="riga">' +
+					    '<td><img class="icot" src="' + icona + '" /></td>' +
+					    '<td>' + name + '</td>' +
+					    '<td>' + addr + '</td>' +
+					    '<td>' + tel  + '</td>' +
+					    '</tr>'
+					);
 
-				var marker = new google.maps.Marker( {
+					var marker = new google.maps.Marker( {
 position:	new google.maps.LatLng(lat, lon),
 map:		mappa,
 draggable:	false,
 animation:	google.maps.Animation.DROP,
 title:		name,
 icon:		icona
-				});
-
-				google.maps.event.addListener(marker, 'click', function() {
-					//var aperto = aprira(open);
-//			var dist   = Math.round(calcola_distanza(lat, lon));
-
-					lastopen.close();
-
-					var infowindow = new google.maps.InfoWindow( {
-content: "<p><b>" + name + "</b></p>" +
-						"<p>" + addr + "</p>" +
-						"<p>" + tel + "</p>" +
-						"<p>" + open + "</p>" /*+
-					"<p>" + dist + " kilometri da te</p>" +
-					"<p>" + aperto + "</p>"*/
 					});
 
-					infowindow.open(mappa, this)
-					lastopen = infowindow;
-				});
+					google.maps.event.addListener(marker, 'click', function() {
+						//var aperto = aprira(open);
+//			var dist   = Math.round(calcola_distanza(lat, lon));
+						if (lastopen != undefined)
+							lastopen.close();
 
-				markers.push(marker);
+						var infowindow = new google.maps.InfoWindow( {
+content: "<p><b>" + name + "</b></p>" +
+							"<p>" + addr + "</p>" +
+							"<p>" + tel + "</p>" +
+							"<p>" + open + "</p>" +
+							"<p>Lat:" + lat + "</p>" +
+							"<p>Lon:" + lon + "</p>" +
+							"<p><a href=\'#\' onClick=\"mappa.setCenter(new google.maps.LatLng(" + lat + "," + lon + "))\">Centra qui</a></p>" /*+
+					"<p>" + dist + " kilometri da te</p>" +
+					"<p>" + aperto + "</p>"*/
+						});
+
+						infowindow.open(mappa, this)
+						lastopen = infowindow;
+					});
+
+					markers.push(marker);
+				}
 			});
 		}
 	})
@@ -221,7 +229,6 @@ function inizializza_ricerca() {
 }
 
 function trova_locations(nome, raggio, aggrs, categs) {
-	var p = user.getPosition();
 	var base_url = grp_url + "/data";
 
 	if (aggrs.length == 0) {
@@ -261,9 +268,14 @@ function trova_locations(nome, raggio, aggrs, categs) {
 }
 //TODO
 function filtra_distanza(data) {
-	var dist;
-	var p = user.getPosition();
-	
+	$.each(data, function(id, info) {
+		if (calcola_distanza(parseFloat(info.lat), parseFloat(info.long)) >
+		        $("#raggio").slider("option", "value"))
+			data[id].tooFar = 1;
+		else
+			data[id].tooFar = 0;
+	})
+
 //	var base_url = grp_url + "/descr-distanza/";
 
 //	base_url += 'params/' + p.lat() + '/' + p.lng() + '/' + lat + '/' + lon;
@@ -275,6 +287,22 @@ function filtra_distanza(data) {
 //	});
 
 	return data;
+}
+
+function calcola_distanza(lat, lon) {
+	var p = user.getPosition();
+	var radlat1 = Math.PI * lat / 180;
+	var radlat2 = Math.PI * p.lat() / 180;
+	var radlon1 = Math.PI * lon / 180;
+	var radlon2 = Math.PI * p.lng() / 180;
+	var theta = lon - p.lng();
+	var radtheta = Math.PI * theta / 180;
+	var dist = Math.sin(radlat1) * Math.sin(radlat2) + Math.cos(radlat1) * Math.cos(radlat2) * Math.cos(radtheta);
+	dist = Math.acos(dist);
+	dist = dist * 180 / Math.PI;
+	dist = dist * 60 * 1.1515;
+	dist = dist * 1.609344;//km
+	return dist;
 }
 /*
 function orario() {
